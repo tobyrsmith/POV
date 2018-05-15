@@ -1,0 +1,54 @@
+expand 1.2
+ltype 0
+angle 0
+ctype black
+lweight 5
+ptype 20 3
+#
+limits -1 5 0 1
+TICKSIZE -1 10 0 0
+box
+xlabel "Average Distance [AU]"
+ylabel "Eccentricity"
+#
+data CometElements.dat
+read {ca 1 ce 2 ci 3}
+set cP = ca ** (3/2)
+set cap = ca * (1.0 + ce)
+set LogCAP = lg(cap)
+ctype green
+points LogCAP ce
+relocate 2.8 0.6
+label Comets
+#
+data TNO.dat
+read {ki 10 ke 11 ka 12}
+set LogKA = lg(ka)
+ctype yellow
+points LogKA ke
+relocate 2.8 0.55
+label Kuiper Belt Objects
+#
+data Asteroids.dat
+read {aa 2 ae 3 ai 4}
+set LogAA = lg(aa)
+ctype blue
+points LogAA ae
+relocate 2.8 0.50
+label Asteroids
+#
+ctype red
+ltype 1
+set x = 1,10000,1
+set LogX = lg(x)
+set jup = (1.0 - (5.203 / x))
+connect LogX jup
+#
+ctype red
+relocate 2.8 0.45
+label Planets
+expand 3.0
+data PlanetElements.dat
+read {pla 2 ple 3 pli 4}
+set LogPA = lg(pla)
+points LogPA ple

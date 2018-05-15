@@ -1,0 +1,2684 @@
+
+//   1P/Halley
+torus {17.9417549130941*au,rodC
+  scale <1,1,0.2537>
+  translate <-17.3547*au,0,0>
+  rotate <0,-111.86560,0>
+  rotate <-162.24220,0,0>
+  rotate <0,111.86560,0>
+  rotate <0,- 58.86004,0>
+  pigment { Red }
+}
+
+//   2P/Encke
+torus {2.21771878679937*au,rodC
+  scale <1,1,0.5318>
+  translate <-1.8782*au,0,0>
+  rotate <0,-186.48361,0>
+  rotate <- 11.75549,0,0>
+  rotate <0,186.48361,0>
+  rotate <0,-334.59993,0>
+  pigment { Blue }
+}
+
+//   4P/Faye
+torus {3.83791918466562*au,rodC
+  scale <1,1,0.8229>
+  translate <-2.1809*au,0,0>
+  rotate <0,-204.97524,0>
+  rotate <-  9.04903,0,0>
+  rotate <0,204.97524,0>
+  rotate <0,-199.33888,0>
+  pigment { Blue }
+}
+
+//   6P/d'Arrest
+torus {3.49374640118897*au,rodC
+  scale <1,1,0.7902>
+  translate <-2.1410*au,0,0>
+  rotate <0,-178.11464,0>
+  rotate <- 19.49755,0,0>
+  rotate <0,178.11464,0>
+  rotate <0,-138.94496,0>
+  pigment { Blue }
+}
+
+//   7P/Pons-Winnecke
+torus {3.43828965772505*au,rodC
+  scale <1,1,0.7733>
+  translate <-2.1801*au,0,0>
+  rotate <0,-172.29304,0>
+  rotate <- 22.28478,0,0>
+  rotate <0,172.29304,0>
+  rotate <0,- 93.44973,0>
+  pigment { Blue }
+}
+
+//   8P/Tuttle
+torus {5.67177628412742*au,rodC
+  scale <1,1,0.5665>
+  translate <-4.6740*au,0,0>
+  rotate <0,-206.70267,0>
+  rotate <- 54.69256,0,0>
+  rotate <0,206.70267,0>
+  rotate <0,-270.54872,0>
+  pigment { Blue }
+}
+
+//   9P/Tempel 1
+torus {3.118300346272*au,rodC
+  scale <1,1,0.8548>
+  translate <-1.6183*au,0,0>
+  rotate <0,-178.91116,0>
+  rotate <- 10.54134,0,0>
+  rotate <0,178.91116,0>
+  rotate <0,- 68.96648,0>
+  pigment { Blue }
+}
+
+//  10P/Tempel 2
+torus {3.10505579294288*au,rodC
+  scale <1,1,0.8524>
+  translate <-1.6234*au,0,0>
+  rotate <0,-195.02291,0>
+  rotate <- 11.97668,0,0>
+  rotate <0,195.02291,0>
+  rotate <0,-118.21143,0>
+  pigment { Blue }
+}
+
+//  12P/Pons-Brooks
+torus {17.1991686995031*au,rodC
+  scale <1,1,0.2979>
+  translate <-16.4184*au,0,0>
+  rotate <0,-198.99022,0>
+  rotate <- 74.19157,0,0>
+  rotate <0,198.99022,0>
+  rotate <0,-255.85603,0>
+  pigment { Blue }
+}
+
+//  13P/Olbers
+torus {16.8638491227149*au,rodC
+  scale <1,1,0.3668>
+  translate <-15.6883*au,0,0>
+  rotate <0,- 64.41250,0>
+  rotate <- 44.66567,0,0>
+  rotate <0, 64.41250,0>
+  rotate <0,- 85.84794,0>
+  pigment { Blue }
+}
+
+//  14P/Wolf
+torus {4.06954073112593*au,rodC
+  scale <1,1,0.9134>
+  translate <-1.6569*au,0,0>
+  rotate <0,-162.36362,0>
+  rotate <- 27.52265,0,0>
+  rotate <0,162.36362,0>
+  rotate <0,-204.12078,0>
+  pigment { Blue }
+}
+
+//  15P/Finlay
+torus {3.57179902452975*au,rodC
+  scale <1,1,0.7037>
+  translate <-2.5377*au,0,0>
+  rotate <0,-323.63863,0>
+  rotate <-  3.67442,0,0>
+  rotate <0,323.63863,0>
+  rotate <0,- 41.96086,0>
+  pigment { Blue }
+}
+
+//  16P/Brooks 2
+torus {3.61150421746987*au,rodC
+  scale <1,1,0.8706>
+  translate <-1.7766*au,0,0>
+  rotate <0,-198.10794,0>
+  rotate <-  5.54817,0,0>
+  rotate <0,198.10794,0>
+  rotate <0,-176.91398,0>
+  pigment { Blue }
+}
+
+//  17P/Holmes
+torus {3.68293654298391*au,rodC
+  scale <1,1,0.9112>
+  translate <-1.5174*au,0,0>
+  rotate <0,- 23.34781,0>
+  rotate <- 19.18782,0,0>
+  rotate <0, 23.34781,0>
+  rotate <0,-328.01002,0>
+  pigment { Blue }
+}
+
+//  18P/Perrine-Mrkos
+torus {3.57086220368819*au,rodC
+  scale <1,1,0.7688>
+  translate <-2.2836*au,0,0>
+  rotate <0,-166.64421,0>
+  rotate <- 17.86439,0,0>
+  rotate <0,166.64421,0>
+  rotate <0,-240.55704,0>
+  pigment { Blue }
+}
+
+//  19P/Borrelly
+torus {3.6112492247146*au,rodC
+  scale <1,1,0.7815>
+  translate <-2.2530*au,0,0>
+  rotate <0,-353.37588,0>
+  rotate <- 30.32470,0,0>
+  rotate <0,353.37588,0>
+  rotate <0,- 75.42485,0>
+  pigment { Blue }
+}
+
+//  20D/Westphal
+torus {15.6421109339342*au,rodC
+  scale <1,1,0.3923>
+  translate <-14.3881*au,0,0>
+  rotate <0,- 57.11521,0>
+  rotate <- 40.88769,0,0>
+  rotate <0, 57.11521,0>
+  rotate <0,-347.99706,0>
+  pigment { Blue }
+}
+
+//  21P/Giacobini-Zinner
+torus {3.5217438259292*au,rodC
+  scale <1,1,0.7077>
+  translate <-2.4880*au,0,0>
+  rotate <0,-172.54254,0>
+  rotate <- 31.85878,0,0>
+  rotate <0,172.54254,0>
+  rotate <0,-195.39825,0>
+  pigment { Blue }
+}
+
+//  22P/Kopff
+torus {3.46759107169739*au,rodC
+  scale <1,1,0.8395>
+  translate <-1.8840*au,0,0>
+  rotate <0,-162.75988,0>
+  rotate <-  4.71875,0,0>
+  rotate <0,162.75988,0>
+  rotate <0,-120.92231,0>
+  pigment { Blue }
+}
+
+//  23P/Brorsen-Metcalf
+torus {17.068593626721*au,rodC
+  scale <1,1,0.2352>
+  translate <-16.5898*au,0,0>
+  rotate <0,-129.61071,0>
+  rotate <- 19.33387,0,0>
+  rotate <0,129.61071,0>
+  rotate <0,-311.58542,0>
+  pigment { Blue }
+}
+
+//  24P/Schaumasse
+torus {4.08209861614676*au,rodC
+  scale <1,1,0.7094>
+  translate <-2.8771*au,0,0>
+  rotate <0,- 57.87339,0>
+  rotate <- 11.75149,0,0>
+  rotate <0, 57.87339,0>
+  rotate <0,- 79.83117,0>
+  pigment { Blue }
+}
+
+//  25D/Neujmin 2
+torus {3.07169662257494*au,rodC
+  scale <1,1,0.8094>
+  translate <-1.8040*au,0,0>
+  rotate <0,-214.80189,0>
+  rotate <-  5.36811,0,0>
+  rotate <0,214.80189,0>
+  rotate <0,-307.85210,0>
+  pigment { Blue }
+}
+
+//  26P/Grigg-Skjellerup
+torus {3.04357078919832*au,rodC
+  scale <1,1,0.7744>
+  translate <-1.9257*au,0,0>
+  rotate <0,-  1.62382,0>
+  rotate <- 22.34727,0,0>
+  rotate <0,  1.62382,0>
+  rotate <0,-211.73982,0>
+  pigment { Blue }
+}
+
+//  27P/Crommelin
+torus {9.20399486163255*au,rodC
+  scale <1,1,0.3949>
+  translate <-8.4561*au,0,0>
+  rotate <0,-195.98006,0>
+  rotate <- 28.95684,0,0>
+  rotate <0,195.98006,0>
+  rotate <0,-250.63809,0>
+  pigment { Blue }
+}
+
+//  28P/Neujmin 1
+torus {6.91728161110339*au,rodC
+  scale <1,1,0.6312>
+  translate <-5.3652*au,0,0>
+  rotate <0,-346.91911,0>
+  rotate <- 14.18533,0,0>
+  rotate <0,346.91911,0>
+  rotate <0,-347.03356,0>
+  pigment { Blue }
+}
+
+//  29P/Schwassmann-Wachmann 1
+torus {5.9880714831358*au,rodC
+  scale <1,1,0.9990>
+  translate <-0.2645*au,0,0>
+  rotate <0,- 48.95648,0>
+  rotate <-  9.39208,0,0>
+  rotate <0, 48.95648,0>
+  rotate <0,-312.71557,0>
+  pigment { Blue }
+}
+
+//  30P/Reinmuth 1
+torus {3.77095442906884*au,rodC
+  scale <1,1,0.8648>
+  translate <-1.8934*au,0,0>
+  rotate <0,- 13.28420,0>
+  rotate <-  8.13053,0,0>
+  rotate <0, 13.28420,0>
+  rotate <0,-119.75819,0>
+  pigment { Blue }
+}
+
+//  31P/Schwassmann-Wachmann 2
+torus {4.23577136509535*au,rodC
+  scale <1,1,0.9807>
+  translate <-0.8272*au,0,0>
+  rotate <0,- 18.40290,0>
+  rotate <-  4.54963,0,0>
+  rotate <0, 18.40290,0>
+  rotate <0,-114.19436,0>
+  pigment { Blue }
+}
+
+//  32P/Comas Sola
+torus {4.25529657178142*au,rodC
+  scale <1,1,0.8222>
+  translate <-2.4223*au,0,0>
+  rotate <0,- 45.82321,0>
+  rotate <- 12.92746,0,0>
+  rotate <0, 45.82321,0>
+  rotate <0,- 60.79478,0>
+  pigment { Blue }
+}
+
+//  33P/Daniel
+torus {4.02166030489701*au,rodC
+  scale <1,1,0.8860>
+  translate <-1.8644*au,0,0>
+  rotate <0,- 18.98760,0>
+  rotate <- 22.40998,0,0>
+  rotate <0, 18.98760,0>
+  rotate <0,- 66.58270,0>
+  pigment { Blue }
+}
+
+//  34D/Gale
+torus {4.99728508068259*au,rodC
+  scale <1,1,0.6510>
+  translate <-3.7934*au,0,0>
+  rotate <0,-217.56899,0>
+  rotate <- 10.64204,0,0>
+  rotate <0,217.56899,0>
+  rotate <0,- 58.31162,0>
+  pigment { Blue }
+}
+
+//  36P/Whipple
+torus {4.16792751530443*au,rodC
+  scale <1,1,0.9659>
+  translate <-1.0797*au,0,0>
+  rotate <0,-202.21281,0>
+  rotate <-  9.93292,0,0>
+  rotate <0,202.21281,0>
+  rotate <0,-182.39931,0>
+  pigment { Blue }
+}
+
+//  37P/Forbes
+torus {3.34820555951101*au,rodC
+  scale <1,1,0.8229>
+  translate <-1.9022*au,0,0>
+  rotate <0,-310.70465,0>
+  rotate <-  7.16275,0,0>
+  rotate <0,310.70465,0>
+  rotate <0,-334.36668,0>
+  pigment { Blue }
+}
+
+//  38P/Stephan-Oterma
+torus {11.2939853444452*au,rodC
+  scale <1,1,0.5114>
+  translate <-9.7054*au,0,0>
+  rotate <0,-359.58156,0>
+  rotate <- 18.35302,0,0>
+  rotate <0,359.58156,0>
+  rotate <0,- 77.99965,0>
+  pigment { Blue }
+}
+
+//  39P/Oterma
+torus {7.24205179428089*au,rodC
+  scale <1,1,0.9696>
+  translate <-1.7713*au,0,0>
+  rotate <0,- 56.36472,0>
+  rotate <-  1.94316,0,0>
+  rotate <0, 56.36472,0>
+  rotate <0,-331.58760,0>
+  pigment { Blue }
+}
+
+//  40P/Vaisala 1
+torus {4.89447622164359*au,rodC
+  scale <1,1,0.7741>
+  translate <-3.0986*au,0,0>
+  rotate <0,- 47.18770,0>
+  rotate <- 11.53852,0,0>
+  rotate <0, 47.18770,0>
+  rotate <0,-134.73356,0>
+  pigment { Blue }
+}
+
+//  41P/Tuttle-Giacobini-Kresak
+torus {3.08817121292669*au,rodC
+  scale <1,1,0.7519>
+  translate <-2.0359*au,0,0>
+  rotate <0,- 62.17224,0>
+  rotate <-  9.22545,0,0>
+  rotate <0, 62.17224,0>
+  rotate <0,-141.10712,0>
+  pigment { Blue }
+}
+
+//  42P/Neujmin 3
+torus {4.85584204158298*au,rodC
+  scale <1,1,0.8110>
+  translate <-2.8411*au,0,0>
+  rotate <0,-147.15751,0>
+  rotate <-  3.98534,0,0>
+  rotate <0,147.15751,0>
+  rotate <0,-150.38456,0>
+  pigment { Blue }
+}
+
+//  43P/Wolf-Harrington
+torus {3.46646808190697*au,rodC
+  scale <1,1,0.8387>
+  translate <-1.8878*au,0,0>
+  rotate <0,-187.27711,0>
+  rotate <- 18.52040,0,0>
+  rotate <0,187.27711,0>
+  rotate <0,-254.69426,0>
+  pigment { Blue }
+}
+
+//  44P/Reinmuth 2
+torus {3.52901292584129*au,rodC
+  scale <1,1,0.8856>
+  translate <-1.6393*au,0,0>
+  rotate <0,- 46.10328,0>
+  rotate <-  6.98177,0,0>
+  rotate <0, 46.10328,0>
+  rotate <0,-296.06841,0>
+  pigment { Blue }
+}
+
+//  45P/Honda-Mrkos-Pajdusakova
+torus {3.02096440325533*au,rodC
+  scale <1,1,0.5650>
+  translate <-2.4926*au,0,0>
+  rotate <0,-326.12984,0>
+  rotate <-  4.25569,0,0>
+  rotate <0,326.12984,0>
+  rotate <0,- 89.08435,0>
+  pigment { Blue }
+}
+
+//  46P/Wirtanen
+torus {3.09424711928399*au,rodC
+  scale <1,1,0.7532>
+  translate <-2.0355*au,0,0>
+  rotate <0,-356.39638,0>
+  rotate <- 11.73811,0,0>
+  rotate <0,356.39638,0>
+  rotate <0,- 82.17436,0>
+  pigment { Blue }
+}
+
+//  47P/Ashbrook-Jackson
+torus {3.81741295682516*au,rodC
+  scale <1,1,0.9182>
+  translate <-1.5120*au,0,0>
+  rotate <0,-348.88444,0>
+  rotate <- 12.51340,0,0>
+  rotate <0,348.88444,0>
+  rotate <0,-  2.60214,0>
+  pigment { Blue }
+}
+
+//  48P/Johnson
+torus {3.64810784674868*au,rodC
+  scale <1,1,0.9301>
+  translate <-1.3398*au,0,0>
+  rotate <0,-207.99095,0>
+  rotate <- 13.66434,0,0>
+  rotate <0,207.99095,0>
+  rotate <0,-117.35392,0>
+  pigment { Blue }
+}
+
+//  49P/Arend-Rigaux
+torus {3.52312650398732*au,rodC
+  scale <1,1,0.7912>
+  translate <-2.1545*au,0,0>
+  rotate <0,-330.56153,0>
+  rotate <- 18.29066,0,0>
+  rotate <0,330.56153,0>
+  rotate <0,-121.72925,0>
+  pigment { Blue }
+}
+
+//  50P/Arend
+torus {4.08113282195605*au,rodC
+  scale <1,1,0.8478>
+  translate <-2.1644*au,0,0>
+  rotate <0,- 48.99424,0>
+  rotate <- 19.17919,0,0>
+  rotate <0, 48.99424,0>
+  rotate <0,-355.38243,0>
+  pigment { Blue }
+}
+
+//  51P/Harrington
+torus {3.5786587428692*au,rodC
+  scale <1,1,0.8273>
+  translate <-2.0105*au,0,0>
+  rotate <0,-233.60089,0>
+  rotate <-  8.65613,0,0>
+  rotate <0,233.60089,0>
+  rotate <0,-119.18038,0>
+  pigment { Blue }
+}
+
+//  52P/Harrington-Abell
+torus {3.84165617676916*au,rodC
+  scale <1,1,0.8398>
+  translate <-2.0857*au,0,0>
+  rotate <0,-138.89977,0>
+  rotate <- 10.21845,0,0>
+  rotate <0,138.89977,0>
+  rotate <0,-337.28774,0>
+  pigment { Blue }
+}
+
+//  53P/Van Biesbroeck
+torus {5.39139801598273*au,rodC
+  scale <1,1,0.8338>
+  translate <-2.9760*au,0,0>
+  rotate <0,-134.09599,0>
+  rotate <-  6.61022,0,0>
+  rotate <0,134.09599,0>
+  rotate <0,-149.00452,0>
+  pigment { Blue }
+}
+
+//  54P/de Vico-Swift
+torus {3.76874260363031*au,rodC
+  scale <1,1,0.9026>
+  translate <-1.6227*au,0,0>
+  rotate <0,-  2.13739,0>
+  rotate <-  6.09250,0,0>
+  rotate <0,  2.13739,0>
+  rotate <0,-358.93239,0>
+  pigment { Blue }
+}
+
+//  55P/Tempel-Tuttle
+torus {10.3346499293464*au,rodC
+  scale <1,1,0.4243>
+  translate <-9.3581*au,0,0>
+  rotate <0,-172.49713,0>
+  rotate <-162.48615,0,0>
+  rotate <0,172.49713,0>
+  rotate <0,-235.25865,0>
+  pigment { Red }
+}
+
+//  56P/Slaughter-Burnham
+torus {5.10997033275292*au,rodC
+  scale <1,1,0.8638>
+  translate <-2.5747*au,0,0>
+  rotate <0,- 44.09676,0>
+  rotate <-  8.15551,0,0>
+  rotate <0, 44.09676,0>
+  rotate <0,-346.27150,0>
+  pigment { Blue }
+}
+
+//  57P/duToit-Neujmin-Delporte
+torus {3.45285938618091*au,rodC
+  scale <1,1,0.8665>
+  translate <-1.7233*au,0,0>
+  rotate <0,-115.24758,0>
+  rotate <-  2.84428,0,0>
+  rotate <0,115.24758,0>
+  rotate <0,-188.92723,0>
+  pigment { Blue }
+}
+
+//  58P/Jackson-Neujmin
+torus {4.08994117625403*au,rodC
+  scale <1,1,0.7509>
+  translate <-2.7013*au,0,0>
+  rotate <0,-200.43897,0>
+  rotate <- 13.45599,0,0>
+  rotate <0,200.43897,0>
+  rotate <0,-160.61520,0>
+  pigment { Blue }
+}
+
+//  59P/Kearns-Kwee
+torus {4.46879548413223*au,rodC
+  scale <1,1,0.8791>
+  translate <-2.1296*au,0,0>
+  rotate <0,-127.44844,0>
+  rotate <-  9.35204,0,0>
+  rotate <0,127.44844,0>
+  rotate <0,-313.03570,0>
+  pigment { Blue }
+}
+
+//  60P/Tsuchinshan 2
+torus {3.586348850119*au,rodC
+  scale <1,1,0.8623>
+  translate <-1.8160*au,0,0>
+  rotate <0,-203.18564,0>
+  rotate <-  6.71655,0,0>
+  rotate <0,203.18564,0>
+  rotate <0,-288.20028,0>
+  pigment { Blue }
+}
+
+//  61P/Shajn-Schaldach
+torus {3.81656304299728*au,rodC
+  scale <1,1,0.9210>
+  translate <-1.4865*au,0,0>
+  rotate <0,-216.62372,0>
+  rotate <-  6.08445,0,0>
+  rotate <0,216.62372,0>
+  rotate <0,-166.88042,0>
+  pigment { Blue }
+}
+
+//  62P/Tsuchinshan 1
+torus {3.53304297035166*au,rodC
+  scale <1,1,0.8170>
+  translate <-2.0372*au,0,0>
+  rotate <0,- 22.76942,0>
+  rotate <- 10.49530,0,0>
+  rotate <0, 22.76942,0>
+  rotate <0,- 96.81038,0>
+  pigment { Blue }
+}
+
+//  63P/Wild 1
+torus {5.59788325002633*au,rodC
+  scale <1,1,0.7602>
+  translate <-3.6370*au,0,0>
+  rotate <0,-167.99025,0>
+  rotate <- 19.93414,0,0>
+  rotate <0,167.99025,0>
+  rotate <0,-358.52470,0>
+  pigment { Blue }
+}
+
+//  64P/Swift-Gehrels
+torus {4.38415957769632*au,rodC
+  scale <1,1,0.7194>
+  translate <-3.0453*au,0,0>
+  rotate <0,- 92.41375,0>
+  rotate <-  8.43755,0,0>
+  rotate <0, 92.41375,0>
+  rotate <0,-306.14072,0>
+  pigment { Blue }
+}
+
+//  65P/Gunn
+torus {3.58994842148879*au,rodC
+  scale <1,1,0.9479>
+  translate <-1.1440*au,0,0>
+  rotate <0,-196.37549,0>
+  rotate <- 10.38398,0,0>
+  rotate <0,196.37549,0>
+  rotate <0,- 68.41661,0>
+  pigment { Blue }
+}
+
+//  66P/du Toit
+torus {6.0017685308703*au,rodC
+  scale <1,1,0.6161>
+  translate <-4.7275*au,0,0>
+  rotate <0,-257.25207,0>
+  rotate <- 18.70094,0,0>
+  rotate <0,257.25207,0>
+  rotate <0,- 22.21415,0>
+  pigment { Blue }
+}
+
+//  67P/Churyumov-Gerasimenko
+torus {3.50729346358775*au,rodC
+  scale <1,1,0.7754>
+  translate <-2.2150*au,0,0>
+  rotate <0,- 11.45202,0>
+  rotate <-  7.12037,0,0>
+  rotate <0, 11.45202,0>
+  rotate <0,- 50.96852,0>
+  pigment { Blue }
+}
+
+//  68P/Klemola
+torus {4.89156395103284*au,rodC
+  scale <1,1,0.7673>
+  translate <-3.1370*au,0,0>
+  rotate <0,-154.54340,0>
+  rotate <- 11.08869,0,0>
+  rotate <0,154.54340,0>
+  rotate <0,-175.54315,0>
+  pigment { Blue }
+}
+
+//  69P/Taylor
+torus {3.6475051488445*au,rodC
+  scale <1,1,0.8848>
+  translate <-1.6997*au,0,0>
+  rotate <0,-355.37078,0>
+  rotate <- 20.54723,0,0>
+  rotate <0,355.37078,0>
+  rotate <0,-108.85883,0>
+  pigment { Blue }
+}
+
+//  70P/Kojima
+torus {3.67231165863878*au,rodC
+  scale <1,1,0.8908>
+  translate <-1.6690*au,0,0>
+  rotate <0,-  1.96410,0>
+  rotate <-  6.60056,0,0>
+  rotate <0,  1.96410,0>
+  rotate <0,-119.29781,0>
+  pigment { Blue }
+}
+
+//  71P/Clark
+torus {3.12164117900282*au,rodC
+  scale <1,1,0.8657>
+  translate <-1.5625*au,0,0>
+  rotate <0,-208.84696,0>
+  rotate <-  9.49525,0,0>
+  rotate <0,208.84696,0>
+  rotate <0,- 59.69263,0>
+  pigment { Blue }
+}
+
+//  72P/Denning-Fujikawa
+torus {4.35089447206543*au,rodC
+  scale <1,1,0.5768>
+  translate <-3.5542*au,0,0>
+  rotate <0,-337.59131,0>
+  rotate <-  9.10795,0,0>
+  rotate <0,337.59131,0>
+  rotate <0,- 36.36721,0>
+  pigment { Blue }
+}
+
+//  73P/Schwassmann-Wachmann 3
+torus {3.06192278649044*au,rodC
+  scale <1,1,0.7201>
+  translate <-2.1246*au,0,0>
+  rotate <0,-198.77448,0>
+  rotate <- 11.40622,0,0>
+  rotate <0,198.77448,0>
+  rotate <0,- 69.92090,0>
+  pigment { Blue }
+}
+
+//  74P/Smirnova-Chernykh
+torus {4.16330618065741*au,rodC
+  scale <1,1,0.9889>
+  translate <-0.6175*au,0,0>
+  rotate <0,- 86.65384,0>
+  rotate <-  6.65244,0,0>
+  rotate <0, 86.65384,0>
+  rotate <0,- 77.15570,0>
+  pigment { Blue }
+}
+
+//  75P/Kohoutek
+torus {3.54737385095652*au,rodC
+  scale <1,1,0.8682>
+  translate <-1.7601*au,0,0>
+  rotate <0,-175.69502,0>
+  rotate <-  5.90991,0,0>
+  rotate <0,175.69502,0>
+  rotate <0,-269.68263,0>
+  pigment { Blue }
+}
+
+//  76P/West-Kohoutek-Ikemura
+torus {3.46815404573624*au,rodC
+  scale <1,1,0.8418>
+  translate <-1.8723*au,0,0>
+  rotate <0,-  0.07333,0>
+  rotate <- 30.49911,0,0>
+  rotate <0,  0.07333,0>
+  rotate <0,- 84.12491,0>
+  pigment { Blue }
+}
+
+//  77P/Longmore
+torus {3.59847802675255*au,rodC
+  scale <1,1,0.9336>
+  translate <-1.2889*au,0,0>
+  rotate <0,-196.44650,0>
+  rotate <- 24.40336,0,0>
+  rotate <0,196.44650,0>
+  rotate <0,- 14.97669,0>
+  pigment { Blue }
+}
+
+//  78P/Gehrels 2
+torus {3.72890271914349*au,rodC
+  scale <1,1,0.8861>
+  translate <-1.7287*au,0,0>
+  rotate <0,-192.76727,0>
+  rotate <-  6.25772,0,0>
+  rotate <0,192.76727,0>
+  rotate <0,-210.62761,0>
+  pigment { Blue }
+}
+
+//  79P/du Toit-Hartley
+torus {3.0302297005803*au,rodC
+  scale <1,1,0.8044>
+  translate <-1.8003*au,0,0>
+  rotate <0,-253.06718,0>
+  rotate <-  2.89445,0,0>
+  rotate <0,253.06718,0>
+  rotate <0,-307.97109,0>
+  pigment { Blue }
+}
+
+//  80P/Peters-Hartley
+torus {4.03975364296948*au,rodC
+  scale <1,1,0.8015>
+  translate <-2.4158*au,0,0>
+  rotate <0,-338.40500,0>
+  rotate <- 29.85532,0,0>
+  rotate <0,338.40500,0>
+  rotate <0,-260.00658,0>
+  pigment { Blue }
+}
+
+//  81P/Wild 2
+torus {3.44823023110771*au,rodC
+  scale <1,1,0.8424>
+  translate <-1.8579*au,0,0>
+  rotate <0,- 41.75156,0>
+  rotate <-  3.24026,0,0>
+  rotate <0, 41.75156,0>
+  rotate <0,-136.14116,0>
+  pigment { Blue }
+}
+
+//  82P/Gehrels 3
+torus {4.14791620847924*au,rodC
+  scale <1,1,0.9921>
+  translate <-0.5213*au,0,0>
+  rotate <0,-227.94781,0>
+  rotate <-  1.12718,0,0>
+  rotate <0,227.94781,0>
+  rotate <0,-239.69009,0>
+  pigment { Blue }
+}
+
+//  83P/Russell 1
+torus {3.87961044453672*au,rodC
+  scale <1,1,0.8992>
+  translate <-1.6977*au,0,0>
+  rotate <0,-333.89432,0>
+  rotate <- 17.74173,0,0>
+  rotate <0,333.89432,0>
+  rotate <0,-226.43788,0>
+  pigment { Blue }
+}
+
+//  84P/Giclas
+torus {3.64529992418712*au,rodC
+  scale <1,1,0.8697>
+  translate <-1.7994*au,0,0>
+  rotate <0,-276.41809,0>
+  rotate <-  7.28164,0,0>
+  rotate <0,276.41809,0>
+  rotate <0,-112.48942,0>
+  pigment { Blue }
+}
+
+//  85P/Boethin
+torus {5.13288121801675*au,rodC
+  scale <1,1,0.6327>
+  translate <-3.9747*au,0,0>
+  rotate <0,- 22.32553,0>
+  rotate <-  4.87674,0,0>
+  rotate <0, 22.32553,0>
+  rotate <0,- 14.41821,0>
+  pigment { Blue }
+}
+
+//  86P/Wild 3
+torus {3.63524267814963*au,rodC
+  scale <1,1,0.9312>
+  translate <-1.3250*au,0,0>
+  rotate <0,-179.16148,0>
+  rotate <- 15.43859,0,0>
+  rotate <0,179.16148,0>
+  rotate <0,- 72.61299,0>
+  pigment { Blue }
+}
+
+//  87P/Bus
+torus {3.48949520395937*au,rodC
+  scale <1,1,0.9270>
+  translate <-1.3086*au,0,0>
+  rotate <0,- 24.14562,0>
+  rotate <-  2.57415,0,0>
+  rotate <0, 24.14562,0>
+  rotate <0,-182.20751,0>
+  pigment { Blue }
+}
+
+//  88P/Howell
+torus {3.14339725170681*au,rodC
+  scale <1,1,0.8334>
+  translate <-1.7373*au,0,0>
+  rotate <0,-234.91139,0>
+  rotate <-  4.39840,0,0>
+  rotate <0,234.91139,0>
+  rotate <0,- 57.66571,0>
+  pigment { Blue }
+}
+
+//  89P/Russell 2
+torus {3.80355492071975*au,rodC
+  scale <1,1,0.9174>
+  translate <-1.5135*au,0,0>
+  rotate <0,-249.22180,0>
+  rotate <- 12.02780,0,0>
+  rotate <0,249.22180,0>
+  rotate <0,- 42.48351,0>
+  pigment { Blue }
+}
+
+//  90P/Gehrels 1
+torus {6.03802738354886*au,rodC
+  scale <1,1,0.8609>
+  translate <-3.0725*au,0,0>
+  rotate <0,- 28.19648,0>
+  rotate <-  9.61630,0,0>
+  rotate <0, 28.19648,0>
+  rotate <0,- 13.52821,0>
+  pigment { Blue }
+}
+
+//  91P/Russell 3
+torus {3.82687957387456*au,rodC
+  scale <1,1,0.9389>
+  translate <-1.3168*au,0,0>
+  rotate <0,-353.43056,0>
+  rotate <- 14.09578,0,0>
+  rotate <0,353.43056,0>
+  rotate <0,-248.67176,0>
+  pigment { Blue }
+}
+
+//  92P/Sanguin
+torus {5.36921066803887*au,rodC
+  scale <1,1,0.7483>
+  translate <-3.5618*au,0,0>
+  rotate <0,-163.04976,0>
+  rotate <- 18.76443,0,0>
+  rotate <0,163.04976,0>
+  rotate <0,-182.34979,0>
+  pigment { Blue }
+}
+
+//  93P/Lovas 1
+torus {4.37289857667729*au,rodC
+  scale <1,1,0.7900>
+  translate <-2.6811*au,0,0>
+  rotate <0,- 74.49277,0>
+  rotate <- 12.23658,0,0>
+  rotate <0, 74.49277,0>
+  rotate <0,-340.01965,0>
+  pigment { Blue }
+}
+
+//  94P/Russell 4
+torus {3.51274678588709*au,rodC
+  scale <1,1,0.9311>
+  translate <-1.2816*au,0,0>
+  rotate <0,- 92.94112,0>
+  rotate <-  6.18484,0,0>
+  rotate <0, 92.94112,0>
+  rotate <0,- 70.93801,0>
+  pigment { Blue }
+}
+
+//  95P/Chiron
+torus {13.602444601453*au,rodC
+  scale <1,1,0.9251>
+  translate <-5.1663*au,0,0>
+  rotate <0,-339.01588,0>
+  rotate <-  6.94030,0,0>
+  rotate <0,339.01588,0>
+  rotate <0,-209.38359,0>
+  pigment { Blue }
+}
+
+//  95P/Chiron
+torus {13.7041731760277*au,rodC
+  scale <1,1,0.9237>
+  translate <-5.2502*au,0,0>
+  rotate <0,-339.55367,0>
+  rotate <-  6.92997,0,0>
+  rotate <0,339.55367,0>
+  rotate <0,-209.38454,0>
+  pigment { Blue }
+}
+
+//  96P/Machholz 1
+torus {3.0130810435215*au,rodC
+  scale <1,1,0.2840>
+  translate <-2.8890*au,0,0>
+  rotate <0,- 14.58076,0>
+  rotate <- 60.18659,0,0>
+  rotate <0, 14.58076,0>
+  rotate <0,- 94.60845,0>
+  pigment { Blue }
+}
+
+//  97P/Metcalf-Brewington
+torus {4.80335851090592*au,rodC
+  scale <1,1,0.8898>
+  translate <-2.1925*au,0,0>
+  rotate <0,-229.71395,0>
+  rotate <- 17.98658,0,0>
+  rotate <0,229.71395,0>
+  rotate <0,-186.43812,0>
+  pigment { Blue }
+}
+
+//  98P/Takamizawa
+torus {3.73136781206552*au,rodC
+  scale <1,1,0.8180>
+  translate <-2.1461*au,0,0>
+  rotate <0,-147.80085,0>
+  rotate <-  9.48972,0,0>
+  rotate <0,147.80085,0>
+  rotate <0,-124.84583,0>
+  pigment { Blue }
+}
+
+//  99P/Kowal 1
+torus {6.10543769707674*au,rodC
+  scale <1,1,0.9738>
+  translate <-1.3871*au,0,0>
+  rotate <0,-172.82648,0>
+  rotate <-  4.34511,0,0>
+  rotate <0,172.82648,0>
+  rotate <0,- 28.39931,0>
+  pigment { Blue }
+}
+
+// 100P/Hartley 1
+torus {3.40828173610464*au,rodC
+  scale <1,1,0.9079>
+  translate <-1.4285*au,0,0>
+  rotate <0,-181.53397,0>
+  rotate <- 25.66371,0,0>
+  rotate <0,181.53397,0>
+  rotate <0,- 37.89190,0>
+  pigment { Blue }
+}
+
+// 101P/Chernykh
+torus {5.78221766567629*au,rodC
+  scale <1,1,0.8048>
+  translate <-3.4318*au,0,0>
+  rotate <0,-263.17064,0>
+  rotate <-  5.07986,0,0>
+  rotate <0,263.17064,0>
+  rotate <0,-130.26166,0>
+  pigment { Blue }
+}
+
+// 102P/Shoemaker 1
+torus {3.74546524267924*au,rodC
+  scale <1,1,0.8819>
+  translate <-1.7661*au,0,0>
+  rotate <0,- 18.67806,0>
+  rotate <- 26.26095,0,0>
+  rotate <0, 18.67806,0>
+  rotate <0,-339.97426,0>
+  pigment { Blue }
+}
+
+// 103P/Hartley 2
+torus {3.44337415166509*au,rodC
+  scale <1,1,0.7138>
+  translate <-2.4117*au,0,0>
+  rotate <0,-180.72205,0>
+  rotate <- 13.61887,0,0>
+  rotate <0,180.72205,0>
+  rotate <0,-219.95455,0>
+  pigment { Blue }
+}
+
+// 104P/Kowal 2
+torus {3.36703928174621*au,rodC
+  scale <1,1,0.8109>
+  translate <-1.9704*au,0,0>
+  rotate <0,-191.89261,0>
+  rotate <- 15.48913,0,0>
+  rotate <0,191.89261,0>
+  rotate <0,-246.14722,0>
+  pigment { Blue }
+}
+
+// 105P/Singer Brewster
+torus {3.460870200611*au,rodC
+  scale <1,1,0.9108>
+  translate <-1.4285*au,0,0>
+  rotate <0,- 46.80297,0>
+  rotate <-  9.18770,0,0>
+  rotate <0, 46.80297,0>
+  rotate <0,-192.54589,0>
+  pigment { Blue }
+}
+
+// 106P/Schuster
+torus {3.76073680136188*au,rodC
+  scale <1,1,0.8089>
+  translate <-2.2110*au,0,0>
+  rotate <0,-355.85844,0>
+  rotate <- 20.13871,0,0>
+  rotate <0,355.85844,0>
+  rotate <0,- 50.58926,0>
+  pigment { Blue }
+}
+
+// 107P/Wilson-Harrington
+torus {2.64342587329522*au,rodC
+  scale <1,1,0.7835>
+  translate <-1.6427*au,0,0>
+  rotate <0,- 91.09070,0>
+  rotate <-  2.78412,0,0>
+  rotate <0, 91.09070,0>
+  rotate <0,-270.82720,0>
+  pigment { Blue }
+}
+
+// 107P/Wilson-Harrington
+torus {2.64342588271392*au,rodC
+  scale <1,1,0.7835>
+  translate <-1.6427*au,0,0>
+  rotate <0,- 91.09104,0>
+  rotate <-  2.78413,0,0>
+  rotate <0, 91.09104,0>
+  rotate <0,-270.82687,0>
+  pigment { Blue }
+}
+
+// 108P/Ciffreo
+torus {3.74614031412202*au,rodC
+  scale <1,1,0.8400>
+  translate <-2.0328*au,0,0>
+  rotate <0,-358.05136,0>
+  rotate <- 13.09292,0,0>
+  rotate <0,358.05136,0>
+  rotate <0,- 53.72153,0>
+  pigment { Blue }
+}
+
+// 110P/Hartley 3
+torus {3.61612970090596*au,rodC
+  scale <1,1,0.9492>
+  translate <-1.1378*au,0,0>
+  rotate <0,-167.93966,0>
+  rotate <- 11.68882,0,0>
+  rotate <0,167.93966,0>
+  rotate <0,-287.75253,0>
+  pigment { Blue }
+}
+
+// 111P/Helin-Roman-Crockett
+torus {4.04005966390585*au,rodC
+  scale <1,1,0.9901>
+  translate <-0.5667*au,0,0>
+  rotate <0,- 10.56469,0>
+  rotate <-  4.23296,0,0>
+  rotate <0, 10.56469,0>
+  rotate <0,- 91.93755,0>
+  pigment { Blue }
+}
+
+// 112P/Urata-Niijima
+torus {3.53655523677165*au,rodC
+  scale <1,1,0.8090>
+  translate <-2.0787*au,0,0>
+  rotate <0,- 21.45770,0>
+  rotate <- 24.20474,0,0>
+  rotate <0, 21.45770,0>
+  rotate <0,- 31.94394,0>
+  pigment { Blue }
+}
+
+// 113P/Spitaler
+torus {3.69025857030874*au,rodC
+  scale <1,1,0.9059>
+  translate <-1.5630*au,0,0>
+  rotate <0,- 50.06292,0>
+  rotate <-  5.77663,0,0>
+  rotate <0, 50.06292,0>
+  rotate <0,- 14.52554,0>
+  pigment { Blue }
+}
+
+// 114P/Wiseman-Skiff
+torus {3.53871382648836*au,rodC
+  scale <1,1,0.8309>
+  translate <-1.9693*au,0,0>
+  rotate <0,-172.82049,0>
+  rotate <- 18.29089,0,0>
+  rotate <0,172.82049,0>
+  rotate <0,-271.07000,0>
+  pigment { Blue }
+}
+
+// 115P/Maury
+torus {4.26060279122802*au,rodC
+  scale <1,1,0.8537>
+  translate <-2.2189*au,0,0>
+  rotate <0,-119.87577,0>
+  rotate <- 11.68260,0,0>
+  rotate <0,119.87577,0>
+  rotate <0,-176.75568,0>
+  pigment { Blue }
+}
+
+// 116P/Wild 4
+torus {3.47478564349071*au,rodC
+  scale <1,1,0.9268>
+  translate <-1.3050*au,0,0>
+  rotate <0,-173.41388,0>
+  rotate <-  3.61594,0,0>
+  rotate <0,173.41388,0>
+  rotate <0,- 21.07617,0>
+  pigment { Blue }
+}
+
+// 117P/Helin-Roman-Alu 1
+torus {4.50664760952889*au,rodC
+  scale <1,1,0.9844>
+  translate <-0.7918*au,0,0>
+  rotate <0,-215.07756,0>
+  rotate <-  9.74249,0,0>
+  rotate <0,215.07756,0>
+  rotate <0,- 73.47247,0>
+  pigment { Blue }
+}
+
+// 118P/Shoemaker-Levy 4
+torus {3.48055121316134*au,rodC
+  scale <1,1,0.9065>
+  translate <-1.4695*au,0,0>
+  rotate <0,-302.09115,0>
+  rotate <-  8.48224,0,0>
+  rotate <0,302.09115,0>
+  rotate <0,-152.03929,0>
+  pigment { Blue }
+}
+
+// 119P/Parker-Hartley
+torus {4.29238473687439*au,rodC
+  scale <1,1,0.9568>
+  translate <-1.2479*au,0,0>
+  rotate <0,-181.41031,0>
+  rotate <-  5.18781,0,0>
+  rotate <0,181.41031,0>
+  rotate <0,-244.09379,0>
+  pigment { Blue }
+}
+
+// 120P/Mueller 1
+torus {4.14153167992473*au,rodC
+  scale <1,1,0.9416>
+  translate <-1.3947*au,0,0>
+  rotate <0,- 30.17266,0>
+  rotate <-  8.78690,0,0>
+  rotate <0, 30.17266,0>
+  rotate <0,-  4.46003,0>
+  pigment { Blue }
+}
+
+// 121P/Shoemaker-Holt 2
+torus {4.0029549039117*au,rodC
+  scale <1,1,0.9410>
+  translate <-1.3548*au,0,0>
+  rotate <0,-  6.22965,0>
+  rotate <- 17.71771,0,0>
+  rotate <0,  6.22965,0>
+  rotate <0,- 99.66996,0>
+  pigment { Blue }
+}
+
+// 122P/de Vico
+torus {17.682633816156*au,rodC
+  scale <1,1,0.2704>
+  translate <-17.0237*au,0,0>
+  rotate <0,- 12.97680,0>
+  rotate <- 85.39113,0,0>
+  rotate <0, 12.97680,0>
+  rotate <0,- 79.61820,0>
+  pigment { Blue }
+}
+
+// 123P/West-Hartley
+torus {3.85986142034625*au,rodC
+  scale <1,1,0.8938>
+  translate <-1.7312*au,0,0>
+  rotate <0,-102.91601,0>
+  rotate <- 15.34671,0,0>
+  rotate <0,102.91601,0>
+  rotate <0,- 46.61998,0>
+  pigment { Blue }
+}
+
+// 124P/Mrkos
+torus {3.20767495062451*au,rodC
+  scale <1,1,0.8400>
+  translate <-1.7406*au,0,0>
+  rotate <0,-181.24427,0>
+  rotate <- 31.35228,0,0>
+  rotate <0,181.24427,0>
+  rotate <0,-  1.39019,0>
+  pigment { Blue }
+}
+
+// 125P/Spacewatch
+torus {3.12940464771407*au,rodC
+  scale <1,1,0.8593>
+  translate <-1.6008*au,0,0>
+  rotate <0,- 87.30183,0>
+  rotate <-  9.98148,0,0>
+  rotate <0, 87.30183,0>
+  rotate <0,-153.23669,0>
+  pigment { Blue }
+}
+
+// 126P/IRAS
+torus {5.61183238873114*au,rodC
+  scale <1,1,0.7175>
+  translate <-3.9091*au,0,0>
+  rotate <0,-356.88696,0>
+  rotate <- 45.96159,0,0>
+  rotate <0,356.88696,0>
+  rotate <0,-357.70071,0>
+  pigment { Blue }
+}
+
+// 127P/Holt-Olmstead
+torus {3.42492099995129*au,rodC
+  scale <1,1,0.9292>
+  translate <-1.2658*au,0,0>
+  rotate <0,-  6.49023,0>
+  rotate <- 14.39593,0,0>
+  rotate <0,  6.49023,0>
+  rotate <0,- 14.00831,0>
+  pigment { Blue }
+}
+
+// 128P-B/Shoemaker-Holt 1
+torus {4.48933614990139*au,rodC
+  scale <1,1,0.9470>
+  translate <-1.4423*au,0,0>
+  rotate <0,-210.21858,0>
+  rotate <-  4.36165,0,0>
+  rotate <0,210.21858,0>
+  rotate <0,-214.52744,0>
+  pigment { Blue }
+}
+
+// 128P-A/Shoemaker-Holt 1
+torus {4.48933840442039*au,rodC
+  scale <1,1,0.9470>
+  translate <-1.4423*au,0,0>
+  rotate <0,-210.21448,0>
+  rotate <-  4.36151,0,0>
+  rotate <0,210.21448,0>
+  rotate <0,-214.52731,0>
+  pigment { Blue }
+}
+
+// 129P/Shoemaker-Levy 3
+torus {3.74600553584601*au,rodC
+  scale <1,1,0.9688>
+  translate <-0.9287*au,0,0>
+  rotate <0,-181.37991,0>
+  rotate <-  5.00840,0,0>
+  rotate <0,181.37991,0>
+  rotate <0,-303.71164,0>
+  pigment { Blue }
+}
+
+// 130P/McNaught-Hughes
+torus {3.55149653014161*au,rodC
+  scale <1,1,0.9147>
+  translate <-1.4352*au,0,0>
+  rotate <0,-224.36812,0>
+  rotate <-  7.30336,0,0>
+  rotate <0,224.36812,0>
+  rotate <0,- 89.97252,0>
+  pigment { Blue }
+}
+
+// 131P/Mueller 2
+torus {3.67648167557142*au,rodC
+  scale <1,1,0.9390>
+  translate <-1.2643*au,0,0>
+  rotate <0,-179.64101,0>
+  rotate <-  7.35552,0,0>
+  rotate <0,179.64101,0>
+  rotate <0,-214.28455,0>
+  pigment { Blue }
+}
+
+// 132P/Helin-Roman-Alu 2
+torus {4.07820298356867*au,rodC
+  scale <1,1,0.8470>
+  translate <-2.1682*au,0,0>
+  rotate <0,-220.95867,0>
+  rotate <-  5.77565,0,0>
+  rotate <0,220.95867,0>
+  rotate <0,-178.47978,0>
+  pigment { Blue }
+}
+
+// 133P/Elst-Pizarro
+torus {3.15754380883605*au,rodC
+  scale <1,1,0.9862>
+  translate <-0.5221*au,0,0>
+  rotate <0,-133.00074,0>
+  rotate <-  1.38549,0,0>
+  rotate <0,133.00074,0>
+  rotate <0,-160.22972,0>
+  pigment { Blue }
+}
+
+// 134P/Kowal-Vavrova
+torus {6.23855379443429*au,rodC
+  scale <1,1,0.8095>
+  translate <-3.6632*au,0,0>
+  rotate <0,- 18.71140,0>
+  rotate <-  4.34523,0,0>
+  rotate <0, 18.71140,0>
+  rotate <0,-202.28583,0>
+  pigment { Blue }
+}
+
+// 135P/Shoemaker-Levy 8
+torus {3.82973913287505*au,rodC
+  scale <1,1,0.9572>
+  translate <-1.1086*au,0,0>
+  rotate <0,- 22.58748,0>
+  rotate <-  6.05041,0,0>
+  rotate <0, 22.58748,0>
+  rotate <0,-213.31730,0>
+  pigment { Blue }
+}
+
+// 136P/Mueller 3
+torus {4.23246417205455*au,rodC
+  scale <1,1,0.9574>
+  translate <-1.2218*au,0,0>
+  rotate <0,-225.41738,0>
+  rotate <-  9.41417,0,0>
+  rotate <0,225.41738,0>
+  rotate <0,-137.96646,0>
+  pigment { Blue }
+}
+
+// 137P/Shoemaker-Levy 2
+torus {4.44585988200734*au,rodC
+  scale <1,1,0.8148>
+  translate <-2.5773*au,0,0>
+  rotate <0,-142.02049,0>
+  rotate <-  4.65703,0,0>
+  rotate <0,142.02049,0>
+  rotate <0,-234.75341,0>
+  pigment { Blue }
+}
+
+// 138P/Shoemaker-Levy 7
+torus {3.61969297913355*au,rodC
+  scale <1,1,0.8473>
+  translate <-1.9225*au,0,0>
+  rotate <0,- 95.52264,0>
+  rotate <- 10.08889,0,0>
+  rotate <0, 95.52264,0>
+  rotate <0,-309.51807,0>
+  pigment { Blue }
+}
+
+// 139P/Vaisala-Oterma
+torus {4.49870351367059*au,rodC
+  scale <1,1,0.9687>
+  translate <-1.1172*au,0,0>
+  rotate <0,-165.55126,0>
+  rotate <-  2.33252,0,0>
+  rotate <0,165.55126,0>
+  rotate <0,-242.46815,0>
+  pigment { Blue }
+}
+
+// 140P/Bowell-Skiff
+torus {6.39724821383349*au,rodC
+  scale <1,1,0.7221>
+  translate <-4.4254*au,0,0>
+  rotate <0,-173.08677,0>
+  rotate <-  3.83583,0,0>
+  rotate <0,173.08677,0>
+  rotate <0,-343.45646,0>
+  pigment { Blue }
+}
+
+// 141P-D/Machholz 2
+torus {3.00880911556989*au,rodC
+  scale <1,1,0.6602>
+  translate <-2.2598*au,0,0>
+  rotate <0,-149.29181,0>
+  rotate <- 12.81184,0,0>
+  rotate <0,149.29181,0>
+  rotate <0,-246.13363,0>
+  pigment { Blue }
+}
+
+// 141P-A/Machholz 2
+torus {3.00860325055609*au,rodC
+  scale <1,1,0.6602>
+  translate <-2.2597*au,0,0>
+  rotate <0,-149.30141,0>
+  rotate <- 12.81129,0,0>
+  rotate <0,149.30141,0>
+  rotate <0,-246.13713,0>
+  pigment { Blue }
+}
+
+// 142P/Ge-Wang
+torus {4.99601167510206*au,rodC
+  scale <1,1,0.8659>
+  translate <-2.4991*au,0,0>
+  rotate <0,-177.38692,0>
+  rotate <- 12.17508,0,0>
+  rotate <0,177.38692,0>
+  rotate <0,-177.14413,0>
+  pigment { Blue }
+}
+
+// 143P/Kowal-Mrkos
+torus {4.30947381295637*au,rodC
+  scale <1,1,0.9125>
+  translate <-1.7627*au,0,0>
+  rotate <0,-320.58928,0>
+  rotate <-  4.68371,0,0>
+  rotate <0,320.58928,0>
+  rotate <0,-245.49873,0>
+  pigment { Blue }
+}
+
+// 144P/Kushida
+torus {3.85781344670223*au,rodC
+  scale <1,1,0.7774>
+  translate <-2.4265*au,0,0>
+  rotate <0,-216.02281,0>
+  rotate <-  4.11879,0,0>
+  rotate <0,216.02281,0>
+  rotate <0,-245.62428,0>
+  pigment { Blue }
+}
+
+// 145P/Shoemaker-Levy 5
+torus {4.22536407085195*au,rodC
+  scale <1,1,0.8484>
+  translate <-2.2368*au,0,0>
+  rotate <0,-  6.23910,0>
+  rotate <- 11.77053,0,0>
+  rotate <0,  6.23910,0>
+  rotate <0,- 29.69034,0>
+  pigment { Blue }
+}
+
+// 146P/Shoemaker-LINEAR
+torus {3.95906633930965*au,rodC
+  scale <1,1,0.7453>
+  translate <-2.6398*au,0,0>
+  rotate <0,-317.77219,0>
+  rotate <- 21.61686,0,0>
+  rotate <0,317.77219,0>
+  rotate <0,- 55.35815,0>
+  pigment { Blue }
+}
+
+// 147P/Kushida-Muramatsu
+torus {3.8093732800562*au,rodC
+  scale <1,1,0.9607>
+  translate <-1.0570*au,0,0>
+  rotate <0,-347.50089,0>
+  rotate <-  2.36784,0,0>
+  rotate <0,347.50089,0>
+  rotate <0,- 93.75384,0>
+  pigment { Blue }
+}
+
+// 148P/Anderson-LINEAR
+torus {3.67765680936242*au,rodC
+  scale <1,1,0.8420>
+  translate <-1.9840*au,0,0>
+  rotate <0,-  6.71978,0>
+  rotate <-  3.68235,0,0>
+  rotate <0,  6.71978,0>
+  rotate <0,- 89.80197,0>
+  pigment { Blue }
+}
+
+// 149P/Mueller 4
+torus {4.32889986141468*au,rodC
+  scale <1,1,0.9214>
+  translate <-1.6822*au,0,0>
+  rotate <0,- 43.62115,0>
+  rotate <- 29.74869,0,0>
+  rotate <0, 43.62115,0>
+  rotate <0,-145.36936,0>
+  pigment { Blue }
+}
+
+// 150P/LONEOS
+torus {3.88561470112731*au,rodC
+  scale <1,1,0.8374>
+  translate <-2.1239*au,0,0>
+  rotate <0,-245.49960,0>
+  rotate <- 18.51994,0,0>
+  rotate <0,245.49960,0>
+  rotate <0,-272.55224,0>
+  pigment { Blue }
+}
+
+// 151P/Helin
+torus {5.82589284481058*au,rodC
+  scale <1,1,0.8247>
+  translate <-3.2951*au,0,0>
+  rotate <0,-215.42109,0>
+  rotate <-  4.71705,0,0>
+  rotate <0,215.42109,0>
+  rotate <0,-143.53651,0>
+  pigment { Blue }
+}
+
+// P/Brewington (1992 Q1)
+torus {4.84316393880296*au,rodC
+  scale <1,1,0.7409>
+  translate <-3.2528*au,0,0>
+  rotate <0,- 48.00670,0>
+  rotate <- 18.05964,0,0>
+  rotate <0, 48.00670,0>
+  rotate <0,-343.64370,0>
+  pigment { Blue }
+}
+
+// P/Catalina (1999 V1)
+torus {6.55000983516302*au,rodC
+  scale <1,1,0.8348>
+  translate <-3.6057*au,0,0>
+  rotate <0,-186.69535,0>
+  rotate <- 15.58695,0,0>
+  rotate <0,186.69535,0>
+  rotate <0,-294.31127,0>
+  pigment { Blue }
+}
+
+// P/Catalina (1999 XN120)
+torus {4.17671935227765*au,rodC
+  scale <1,1,0.9770>
+  translate <-0.8904*au,0,0>
+  rotate <0,-161.82682,0>
+  rotate <-  5.03088,0,0>
+  rotate <0,161.82682,0>
+  rotate <0,-285.45415,0>
+  pigment { Blue }
+}
+
+// P/Gehrels (1997 C1)
+torus {6.71201085244059*au,rodC
+  scale <1,1,0.8833>
+  translate <-3.1467*au,0,0>
+  rotate <0,-211.34455,0>
+  rotate <-  2.86790,0,0>
+  rotate <0,211.34455,0>
+  rotate <0,-225.92255,0>
+  pigment { Blue }
+}
+
+// P/Hartley-IRAS (1983 V1)
+torus {7.7365727758235*au,rodC
+  scale <1,1,0.5500>
+  translate <-6.4614*au,0,0>
+  rotate <0,- 47.07726,0>
+  rotate <- 95.69714,0,0>
+  rotate <0, 47.07726,0>
+  rotate <0,-  1.39713,0>
+  pigment { Red }
+}
+
+// P/Helin-Lawrence (1993 K2)
+torus {4.49267470444037*au,rodC
+  scale <1,1,0.9515>
+  translate <-1.3826*au,0,0>
+  rotate <0,-163.69070,0>
+  rotate <-  9.87128,0,0>
+  rotate <0,163.69070,0>
+  rotate <0,- 92.01592,0>
+  pigment { Blue }
+}
+
+// P/Hergenrother (1998 W2)
+torus {3.62649439846433*au,rodC
+  scale <1,1,0.7936>
+  translate <-2.2063*au,0,0>
+  rotate <0,- 13.88771,0>
+  rotate <- 21.92930,0,0>
+  rotate <0, 13.88771,0>
+  rotate <0,-356.50253,0>
+  pigment { Blue }
+}
+
+// P/Hergenrother (2000 C1)
+torus {3.5303828630792*au,rodC
+  scale <1,1,0.9137>
+  translate <-1.4348*au,0,0>
+  rotate <0,- 51.16903,0>
+  rotate <-  6.10534,0,0>
+  rotate <0, 51.16903,0>
+  rotate <0,-127.04413,0>
+  pigment { Blue }
+}
+
+// P/Hermann (1999 D1)
+torus {5.7602869108367*au,rodC
+  scale <1,1,0.7014>
+  translate <-4.1057*au,0,0>
+  rotate <0,-173.09890,0>
+  rotate <- 21.52208,0,0>
+  rotate <0,173.09890,0>
+  rotate <0,-349.37550,0>
+  pigment { Blue }
+}
+
+// P/Hug-Bell (1999 X1)
+torus {3.67356006607527*au,rodC
+  scale <1,1,0.8812>
+  translate <-1.7368*au,0,0>
+  rotate <0,-296.91676,0>
+  rotate <- 10.96894,0,0>
+  rotate <0,296.91676,0>
+  rotate <0,-103.65123,0>
+  pigment { Blue }
+}
+
+// P/Jager (1998 U3)
+torus {6.065795958173*au,rodC
+  scale <1,1,0.7615>
+  translate <-3.9319*au,0,0>
+  rotate <0,-180.89502,0>
+  rotate <- 19.14132,0,0>
+  rotate <0,180.89502,0>
+  rotate <0,-303.54269,0>
+  pigment { Blue }
+}
+
+// P/Jedicke (1995 A1)
+torus {5.90560879642078*au,rodC
+  scale <1,1,0.9514>
+  translate <-1.8183*au,0,0>
+  rotate <0,-295.47406,0>
+  rotate <- 19.87436,0,0>
+  rotate <0,295.47406,0>
+  rotate <0,-115.85152,0>
+  pigment { Blue }
+}
+
+// P/Jedicke (1996 A1)
+torus {7.19703478527223*au,rodC
+  scale <1,1,0.8997>
+  translate <-3.1418*au,0,0>
+  rotate <0,-224.12480,0>
+  rotate <-  6.62035,0,0>
+  rotate <0,224.12480,0>
+  rotate <0,-249.22099,0>
+  pigment { Blue }
+}
+
+// P/Kobayashi (1997 B1)
+torus {8.58758886800807*au,rodC
+  scale <1,1,0.6490>
+  translate <-6.5330*au,0,0>
+  rotate <0,-183.34034,0>
+  rotate <- 12.34953,0,0>
+  rotate <0,183.34034,0>
+  rotate <0,-329.06411,0>
+  pigment { Blue }
+}
+
+// P/Korlevic (1999 WJ7)
+torus {4.63426801303103*au,rodC
+  scale <1,1,0.9486>
+  translate <-1.4669*au,0,0>
+  rotate <0,-154.53450,0>
+  rotate <-  2.97930,0,0>
+  rotate <0,154.53450,0>
+  rotate <0,-290.53251,0>
+  pigment { Blue }
+}
+
+// P/Korlevic-Juric (1999 DN3)
+torus {4.51886453618701*au,rodC
+  scale <1,1,0.9908>
+  translate <-0.6104*au,0,0>
+  rotate <0,-161.37332,0>
+  rotate <- 18.71996,0,0>
+  rotate <0,161.37332,0>
+  rotate <0,-  5.95459,0>
+  pigment { Blue }
+}
+
+// P/LINEAR (1998 G1)
+torus {12.0861515997079*au,rodC
+  scale <1,1,0.5673>
+  translate <-9.9528*au,0,0>
+  rotate <0,-236.32456,0>
+  rotate <-109.71341,0,0>
+  rotate <0,236.32456,0>
+  rotate <0,-341.38365,0>
+  pigment { Red }
+}
+
+// P/LINEAR (1998 VS24)
+torus {4.50415926919921*au,rodC
+  scale <1,1,0.9698>
+  translate <-1.0988*au,0,0>
+  rotate <0,-244.48045,0>
+  rotate <-  5.03135,0,0>
+  rotate <0,244.48045,0>
+  rotate <0,-159.20700,0>
+  pigment { Blue }
+}
+
+// P/LINEAR (1999 J5)
+torus {4.47106967481109*au,rodC
+  scale <1,1,0.9855>
+  translate <-0.7582*au,0,0>
+  rotate <0,-132.19545,0>
+  rotate <- 13.71769,0,0>
+  rotate <0,132.19545,0>
+  rotate <0,-112.01408,0>
+  pigment { Blue }
+}
+
+// P/LINEAR (1999 U3)
+torus {4.84784964376253*au,rodC
+  scale <1,1,0.7853>
+  translate <-3.0015*au,0,0>
+  rotate <0,-111.31580,0>
+  rotate <- 20.39464,0,0>
+  rotate <0,111.31580,0>
+  rotate <0,-306.97839,0>
+  pigment { Blue }
+}
+
+// P/LINEAR (1999 XB69)
+torus {4.45422837023191*au,rodC
+  scale <1,1,0.7750>
+  translate <-2.8150*au,0,0>
+  rotate <0,-220.18092,0>
+  rotate <- 11.33642,0,0>
+  rotate <0,220.18092,0>
+  rotate <0,-256.16672,0>
+  pigment { Blue }
+}
+
+// P/LINEAR (2000 B3)
+torus {4.00234692659722*au,rodC
+  scale <1,1,0.8180>
+  translate <-2.3021*au,0,0>
+  rotate <0,-130.50592,0>
+  rotate <- 11.12612,0,0>
+  rotate <0,130.50592,0>
+  rotate <0,-352.14783,0>
+  pigment { Blue }
+}
+
+// P/LINEAR (2000 G1)
+torus {3.060975045856*au,rodC
+  scale <1,1,0.7402>
+  translate <-2.0581*au,0,0>
+  rotate <0,-343.28748,0>
+  rotate <- 10.37409,0,0>
+  rotate <0,343.28748,0>
+  rotate <0,-191.03301,0>
+  pigment { Blue }
+}
+
+// P/LINEAR (2000 R2)
+torus {3.33846284062266*au,rodC
+  scale <1,1,0.8120>
+  translate <-1.9485*au,0,0>
+  rotate <0,-147.06306,0>
+  rotate <-  3.21634,0,0>
+  rotate <0,147.06306,0>
+  rotate <0,-187.49943,0>
+  pigment { Blue }
+}
+
+// P/LINEAR (2001 CV8)
+torus {3.87835718737238*au,rodC
+  scale <1,1,0.8955>
+  translate <-1.7263*au,0,0>
+  rotate <0,-151.44547,0>
+  rotate <-  9.04229,0,0>
+  rotate <0,151.44547,0>
+  rotate <0,-359.95361,0>
+  pigment { Blue }
+}
+
+// P/LINEAR (2001 MD7)
+torus {3.97052513146544*au,rodC
+  scale <1,1,0.7294>
+  translate <-2.7162*au,0,0>
+  rotate <0,-244.84686,0>
+  rotate <- 13.52377,0,0>
+  rotate <0,244.84686,0>
+  rotate <0,-129.16812,0>
+  pigment { Blue }
+}
+
+// P/LINEAR-Mueller (1998 S1)
+torus {4.36888187863726*au,rodC
+  scale <1,1,0.9090>
+  translate <-1.8205*au,0,0>
+  rotate <0,- 26.36156,0>
+  rotate <- 10.55981,0,0>
+  rotate <0, 26.36156,0>
+  rotate <0,-359.18386,0>
+  pigment { Blue }
+}
+
+// P/LINEAR-NEAT (2001 BB50)
+torus {5.68018525793968*au,rodC
+  scale <1,1,0.8097>
+  translate <-3.3334*au,0,0>
+  rotate <0,-189.33740,0>
+  rotate <- 10.61771,0,0>
+  rotate <0,189.33740,0>
+  rotate <0,-355.81650,0>
+  pigment { Blue }
+}
+
+// P/LINEAR-NEAT (2001 Q5)
+torus {3.50163469617038*au,rodC
+  scale <1,1,0.9091>
+  translate <-1.4588*au,0,0>
+  rotate <0,-  6.38364,0>
+  rotate <- 10.94334,0,0>
+  rotate <0,  6.38364,0>
+  rotate <0,-336.26083,0>
+  pigment { Blue }
+}
+
+// P/LINEAR-Skiff (2001 R6)
+torus {4.11203591508169*au,rodC
+  scale <1,1,0.8742>
+  translate <-1.9968*au,0,0>
+  rotate <0,-305.95815,0>
+  rotate <- 17.33737,0,0>
+  rotate <0,305.95815,0>
+  rotate <0,- 70.36061,0>
+  pigment { Blue }
+}
+
+// P/LINEAR-Spacewatch (2000 S4)
+torus {7.12006621746186*au,rodC
+  scale <1,1,0.7315>
+  translate <-4.8548*au,0,0>
+  rotate <0,-172.32695,0>
+  rotate <- 28.32432,0,0>
+  rotate <0,172.32695,0>
+  rotate <0,-174.64633,0>
+  pigment { Blue }
+}
+
+// P/LONEOS (1999 RO28)
+torus {3.52757265852395*au,rodC
+  scale <1,1,0.7592>
+  translate <-2.2958*au,0,0>
+  rotate <0,-219.85798,0>
+  rotate <-  8.19136,0,0>
+  rotate <0,219.85798,0>
+  rotate <0,-148.45053,0>
+  pigment { Blue }
+}
+
+// P/LONEOS (2001 R1)
+torus {3.47943261217782*au,rodC
+  scale <1,1,0.7932>
+  translate <-2.1190*au,0,0>
+  rotate <0,- 24.72923,0>
+  rotate <-  7.03969,0,0>
+  rotate <0, 24.72923,0>
+  rotate <0,- 35.48648,0>
+  pigment { Blue }
+}
+
+// P/LONEOS-Tucker (1998 QP54)
+torus {4.19993185873359*au,rodC
+  scale <1,1,0.8339>
+  translate <-2.3181*au,0,0>
+  rotate <0,- 30.10167,0>
+  rotate <- 17.74346,0,0>
+  rotate <0, 30.10167,0>
+  rotate <0,-341.92831,0>
+  pigment { Blue }
+}
+
+// P/Lagerkvist (1996 R2)
+torus {3.79319675721624*au,rodC
+  scale <1,1,0.9512>
+  translate <-1.1702*au,0,0>
+  rotate <0,-334.25958,0>
+  rotate <-  2.60222,0,0>
+  rotate <0,334.25958,0>
+  rotate <0,- 40.22433,0>
+  pigment { Blue }
+}
+
+// P/Lagerkvist-Carsenty (1997 T3)
+torus {6.68217397831957*au,rodC
+  scale <1,1,0.9308>
+  translate <-2.4419*au,0,0>
+  rotate <0,-334.20862,0>
+  rotate <-  4.83536,0,0>
+  rotate <0,334.20862,0>
+  rotate <0,- 63.19888,0>
+  pigment { Blue }
+}
+
+// P/Larsen (1997 V1)
+torus {4.93246064682295*au,rodC
+  scale <1,1,0.9432>
+  translate <-1.6391*au,0,0>
+  rotate <0,-132.85708,0>
+  rotate <- 12.08942,0,0>
+  rotate <0,132.85708,0>
+  rotate <0,-234.84191,0>
+  pigment { Blue }
+}
+
+// P/Li (1998 Y2)
+torus {6.12168677659178*au,rodC
+  scale <1,1,0.8085>
+  translate <-3.6029*au,0,0>
+  rotate <0,-318.97935,0>
+  rotate <- 24.32366,0,0>
+  rotate <0,318.97935,0>
+  rotate <0,- 91.83212,0>
+  pigment { Blue }
+}
+
+// P/Lovas 2 (1986 W1)
+torus {3.56382496217859*au,rodC
+  scale <1,1,0.8057>
+  translate <-2.1110*au,0,0>
+  rotate <0,- 71.43690,0>
+  rotate <-  1.52828,0,0>
+  rotate <0, 71.43690,0>
+  rotate <0,-283.59881,0>
+  pigment { Blue }
+}
+
+// P/McNaught-Hartley (1994 N2)
+torus {7.55903736225356*au,rodC
+  scale <1,1,0.7412>
+  translate <-5.0744*au,0,0>
+  rotate <0,-312.18983,0>
+  rotate <- 17.64829,0,0>
+  rotate <0,312.18983,0>
+  rotate <0,- 36.01161,0>
+  pigment { Blue }
+}
+
+// P/McNaught-Russell (1994 X1)
+torus {6.92854180558779*au,rodC
+  scale <1,1,0.5785>
+  translate <-5.6517*au,0,0>
+  rotate <0,-171.14779,0>
+  rotate <- 29.07427,0,0>
+  rotate <0,171.14779,0>
+  rotate <0,-218.00899,0>
+  pigment { Blue }
+}
+
+// P/Montani (1997 G1)
+torus {7.22310504521428*au,rodC
+  scale <1,1,0.9091>
+  translate <-3.0088*au,0,0>
+  rotate <0,-213.49233,0>
+  rotate <-  3.98974,0,0>
+  rotate <0,213.49233,0>
+  rotate <0,-267.87519,0>
+  pigment { Blue }
+}
+
+// P/Mueller (1998 U2)
+torus {4.23290416859003*au,rodC
+  scale <1,1,0.8532>
+  translate <-2.2076*au,0,0>
+  rotate <0,- 49.53048,0>
+  rotate <-  2.19328,0,0>
+  rotate <0, 49.53048,0>
+  rotate <0,-336.22484,0>
+  pigment { Blue }
+}
+
+// P/Mueller 5 (1993 W1)
+torus {5.74765057741467*au,rodC
+  scale <1,1,0.9654>
+  translate <-1.4978*au,0,0>
+  rotate <0,- 30.01500,0>
+  rotate <- 16.46544,0,0>
+  rotate <0, 30.01500,0>
+  rotate <0,-100.66246,0>
+  pigment { Blue }
+}
+
+// P/NEAT (2001 F1)
+torus {6.44526948077765*au,rodC
+  scale <1,1,0.9346>
+  translate <-2.2927*au,0,0>
+  rotate <0,- 80.69850,0>
+  rotate <- 19.08703,0,0>
+  rotate <0, 80.69850,0>
+  rotate <0,- 92.83834,0>
+  pigment { Blue }
+}
+
+// P/NEAT (2001 H5)
+torus {5.99207641785552*au,rodC
+  scale <1,1,0.8000>
+  translate <-3.5954*au,0,0>
+  rotate <0,-224.87424,0>
+  rotate <-  8.39954,0,0>
+  rotate <0,224.87424,0>
+  rotate <0,-329.56562,0>
+  pigment { Blue }
+}
+
+// P/NEAT (2001 J1)
+torus {3.87720954003435*au,rodC
+  scale <1,1,0.6519>
+  translate <-2.9401*au,0,0>
+  rotate <0,-271.02544,0>
+  rotate <- 10.15952,0,0>
+  rotate <0,271.02544,0>
+  rotate <0,-200.79549,0>
+  pigment { Blue }
+}
+
+// P/NEAT (2001 K1)
+torus {3.84390562376639*au,rodC
+  scale <1,1,0.9340>
+  translate <-1.3734*au,0,0>
+  rotate <0,- 94.64561,0>
+  rotate <- 16.91269,0,0>
+  rotate <0, 94.64561,0>
+  rotate <0,- 84.83833,0>
+  pigment { Blue }
+}
+
+// P/NEAT (2001 Q6)
+torus {7.99895101000292*au,rodC
+  scale <1,1,0.5667>
+  translate <-6.5908*au,0,0>
+  rotate <0,- 43.33103,0>
+  rotate <- 56.85662,0,0>
+  rotate <0, 43.33103,0>
+  rotate <0,- 22.13627,0>
+  pigment { Blue }
+}
+
+// P/ODAS (1998 X1)
+torus {3.57659607790797*au,rodC
+  scale <1,1,0.8941>
+  translate <-1.6021*au,0,0>
+  rotate <0,- 68.79970,0>
+  rotate <-  1.35213,0,0>
+  rotate <0, 68.79970,0>
+  rotate <0,-358.83869,0>
+  pigment { Blue }
+}
+
+// P/Petriew (2001 Q2)
+torus {3.11618166236637*au,rodC
+  scale <1,1,0.7176>
+  translate <-2.1704*au,0,0>
+  rotate <0,-181.90208,0>
+  rotate <- 13.94779,0,0>
+  rotate <0,181.90208,0>
+  rotate <0,-214.11891,0>
+  pigment { Blue }
+}
+
+// P/Scotti (2000 Y3)
+torus {5.063469584306*au,rodC
+  scale <1,1,0.9797>
+  translate <-1.0160*au,0,0>
+  rotate <0,- 88.52189,0>
+  rotate <-  2.24736,0,0>
+  rotate <0, 88.52189,0>
+  rotate <0,-355.23830,0>
+  pigment { Blue }
+}
+
+// P/Shoemaker 3 (1986 A1)
+torus {6.63868422681477*au,rodC
+  scale <1,1,0.6868>
+  translate <-4.8250*au,0,0>
+  rotate <0,- 14.93664,0>
+  rotate <-  6.38637,0,0>
+  rotate <0, 14.93664,0>
+  rotate <0,- 97.27140,0>
+  pigment { Blue }
+}
+
+// P/Shoemaker 4 (1994 J3)
+torus {5.95482704032303*au,rodC
+  scale <1,1,0.8628>
+  translate <-3.0105*au,0,0>
+  rotate <0,-192.12990,0>
+  rotate <- 24.80432,0,0>
+  rotate <0,192.12990,0>
+  rotate <0,- 92.94255,0>
+  pigment { Blue }
+}
+
+// P/Shoemaker-Levy 1 (1990 V1)
+torus {6.46329475101013*au,rodC
+  scale <1,1,0.6342>
+  translate <-4.9974*au,0,0>
+  rotate <0,-312.66796,0>
+  rotate <- 24.55646,0,0>
+  rotate <0,312.66796,0>
+  rotate <0,- 51.66005,0>
+  pigment { Blue }
+}
+
+// P/Shoemaker-Levy 6 (1991 V1)
+torus {3.8488741879124*au,rodC
+  scale <1,1,0.7090>
+  translate <-2.7144*au,0,0>
+  rotate <0,-333.36064,0>
+  rotate <- 16.89183,0,0>
+  rotate <0,333.36064,0>
+  rotate <0,- 37.83634,0>
+  pigment { Blue }
+}
+
+// P/Skiff (2000 S1)
+torus {6.58719894331261*au,rodC
+  scale <1,1,0.7859>
+  translate <-4.0733*au,0,0>
+  rotate <0,-308.44378,0>
+  rotate <- 21.00791,0,0>
+  rotate <0,308.44378,0>
+  rotate <0,- 29.13783,0>
+  pigment { Blue }
+}
+
+// P/Spahr (1998 U4)
+torus {5.57042364479785*au,rodC
+  scale <1,1,0.9507>
+  translate <-1.7271*au,0,0>
+  rotate <0,-251.74470,0>
+  rotate <- 31.51913,0,0>
+  rotate <0,251.74470,0>
+  rotate <0,-181.71715,0>
+  pigment { Blue }
+}
+
+// P/Spahr (1998 W1)
+torus {3.5225988392659*au,rodC
+  scale <1,1,0.8601>
+  translate <-1.7968*au,0,0>
+  rotate <0,-346.67798,0>
+  rotate <- 21.96180,0,0>
+  rotate <0,346.67798,0>
+  rotate <0,-101.97331,0>
+  pigment { Blue }
+}
+
+// P/Tichy (2000 U6)
+torus {3.78972253796849*au,rodC
+  scale <1,1,0.9022>
+  translate <-1.6348*au,0,0>
+  rotate <0,- 11.85439,0>
+  rotate <- 19.36933,0,0>
+  rotate <0, 11.85439,0>
+  rotate <0,- 24.43414,0>
+  pigment { Blue }
+}
+
+// C/LINEAR (1999 S3)
+torus {18.9392220167884*au,rodC
+  scale <1,1,0.4360>
+  translate <-17.0443*au,0,0>
+  rotate <0,- 44.12829,0>
+  rotate <- 70.56075,0,0>
+  rotate <0, 44.12829,0>
+  rotate <0,- 11.87809,0>
+  pigment { Blue }
+}
+
+// C/LINEAR (1999 XS87)
+torus {17.4336862756666*au,rodC
+  scale <1,1,0.5410>
+  translate <-14.6619*au,0,0>
+  rotate <0,-151.35156,0>
+  rotate <- 14.84419,0,0>
+  rotate <0,151.35156,0>
+  rotate <0,-266.73101,0>
+  pigment { Blue }
+}
+
+// C/LINEAR (2000 B4)
+torus {18.0082093476329*au,rodC
+  scale <1,1,0.7840>
+  translate <-11.1786*au,0,0>
+  rotate <0,-126.13490,0>
+  rotate <- 15.90933,0,0>
+  rotate <0,126.13490,0>
+  rotate <0,-  0.62670,0>
+  pigment { Blue }
+}
+
+// C/LINEAR (2000 D2)
+torus {17.2761880607315*au,rodC
+  scale <1,1,0.4983>
+  translate <-14.9786*au,0,0>
+  rotate <0,-117.68288,0>
+  rotate <-156.99195,0,0>
+  rotate <0,117.68288,0>
+  rotate <0,-235.88717,0>
+  pigment { Red }
+}
+
+// C/LINEAR (2000 G2)
+torus {14.3082391489792*au,rodC
+  scale <1,1,0.5863>
+  translate <-11.5912*au,0,0>
+  rotate <0,-101.77027,0>
+  rotate <-170.47927,0,0>
+  rotate <0,101.77027,0>
+  rotate <0,-328.38160,0>
+  pigment { Red }
+}
+
+// C/LONEOS (2000 S3)
+torus {11.6855400291566*au,rodC
+  scale <1,1,0.6354>
+  translate <-9.0234*au,0,0>
+  rotate <0,-298.26431,0>
+  rotate <- 25.16461,0,0>
+  rotate <0,298.26431,0>
+  rotate <0,- 41.15261,0>
+  pigment { Blue }
+}
+
+// C/Levy (1991 L3)
+torus {13.8003619881029*au,rodC
+  scale <1,1,0.3706>
+  translate <-12.8178*au,0,0>
+  rotate <0,- 41.46838,0>
+  rotate <- 19.19039,0,0>
+  rotate <0, 41.46838,0>
+  rotate <0,-329.43075,0>
+  pigment { Blue }
+}
+
+// C/Li (1999 E1)
+torus {16.3174661590709*au,rodC
+  scale <1,1,0.6502>
+  translate <-12.3975*au,0,0>
+  rotate <0,-329.75798,0>
+  rotate <- 46.88668,0,0>
+  rotate <0,329.75798,0>
+  rotate <0,-127.83278,0>
+  pigment { Blue }
+}
+
+// D/Dubiago (1921 H1)
+torus {15.7233188097824*au,rodC
+  scale <1,1,0.3699>
+  translate <-14.6083*au,0,0>
+  rotate <0,- 97.44876,0>
+  rotate <- 22.32653,0,0>
+  rotate <0, 97.44876,0>
+  rotate <0,- 67.20654,0>
+  pigment { Blue }
+}
+
+// D/Haneda-Campos (1978 R1)
+torus {3.45024011411106*au,rodC
+  scale <1,1,0.7760>
+  translate <-2.1760*au,0,0>
+  rotate <0,-307.10905,0>
+  rotate <-  4.94339,0,0>
+  rotate <0,307.10905,0>
+  rotate <0,- 66.58562,0>
+  pigment { Blue }
+}
+
+// D/Shoemaker-Levy 9-A (1993 F2-A)
+torus {6.86479465446157*au,rodC
+  scale <1,1,0.9763>
+  translate <-1.4842*au,0,0>
+  rotate <0,-354.89352,0>
+  rotate <-  6.00329,0,0>
+  rotate <0,354.89352,0>
+  rotate <0,-220.53766,0>
+  pigment { Blue }
+}
+
+// D/Shoemaker-Levy 9-B (1993 F2-B)
+torus {6.8597504501006*au,rodC
+  scale <1,1,0.9765>
+  translate <-1.4791*au,0,0>
+  rotate <0,-354.90065,0>
+  rotate <-  5.99022,0,0>
+  rotate <0,354.90065,0>
+  rotate <0,-220.56529,0>
+  pigment { Blue }
+}
+
+// D/Shoemaker-Levy 9-C (1993 F2-C)
+torus {6.85550076444456*au,rodC
+  scale <1,1,0.9766>
+  translate <-1.4751*au,0,0>
+  rotate <0,-354.90826,0>
+  rotate <-  5.98196,0,0>
+  rotate <0,354.90826,0>
+  rotate <0,-220.58139,0>
+  pigment { Blue }
+}
+
+// D/Shoemaker-Levy 9-D (1993 F2-D)
+torus {6.85157697373779*au,rodC
+  scale <1,1,0.9767>
+  translate <-1.4712*au,0,0>
+  rotate <0,-354.91311,0>
+  rotate <-  5.97297,0,0>
+  rotate <0,354.91311,0>
+  rotate <0,-220.60031,0>
+  pigment { Blue }
+}
+
+// D/Shoemaker-Levy 9-E (1993 F2-E)
+torus {6.84876682709612*au,rodC
+  scale <1,1,0.9767>
+  translate <-1.4684*au,0,0>
+  rotate <0,-354.91615,0>
+  rotate <-  5.96663,0,0>
+  rotate <0,354.91615,0>
+  rotate <0,-220.61378,0>
+  pigment { Blue }
+}
+
+// D/Shoemaker-Levy 9-F (1993 F2-F)
+torus {6.84163111758934*au,rodC
+  scale <1,1,0.9769>
+  translate <-1.4613*au,0,0>
+  rotate <0,-354.93310,0>
+  rotate <-  5.94846,0,0>
+  rotate <0,354.93310,0>
+  rotate <0,-220.65161,0>
+  pigment { Blue }
+}
+
+// D/Shoemaker-Levy 9-G (1993 F2-G)
+torus {6.8351999878646*au,rodC
+  scale <1,1,0.9771>
+  translate <-1.4551*au,0,0>
+  rotate <0,-354.93416,0>
+  rotate <-  5.93551,0,0>
+  rotate <0,354.93416,0>
+  rotate <0,-220.68008,0>
+  pigment { Blue }
+}
+
+// D/Shoemaker-Levy 9-H (1993 F2-H)
+torus {6.82546592154877*au,rodC
+  scale <1,1,0.9773>
+  translate <-1.4455*au,0,0>
+  rotate <0,-354.94843,0>
+  rotate <-  5.91287,0,0>
+  rotate <0,354.94843,0>
+  rotate <0,-220.72831,0>
+  pigment { Blue }
+}
+
+// D/Shoemaker-Levy 9-K (1993 F2-K)
+torus {6.81351106111513*au,rodC
+  scale <1,1,0.9776>
+  translate <-1.4337*au,0,0>
+  rotate <0,-354.96756,0>
+  rotate <-  5.88507,0,0>
+  rotate <0,354.96756,0>
+  rotate <0,-220.78897,0>
+  pigment { Blue }
+}
+
+// D/Shoemaker-Levy 9-L (1993 F2-L)
+torus {6.80415746545844*au,rodC
+  scale <1,1,0.9778>
+  translate <-1.4245*au,0,0>
+  rotate <0,-354.98453,0>
+  rotate <-  5.86313,0,0>
+  rotate <0,354.98453,0>
+  rotate <0,-220.83751,0>
+  pigment { Blue }
+}
+
+// D/Shoemaker-Levy 9-N (1993 F2-N)
+torus {6.79471929270828*au,rodC
+  scale <1,1,0.9781>
+  translate <-1.4152*au,0,0>
+  rotate <0,-354.99998,0>
+  rotate <-  5.84046,0,0>
+  rotate <0,354.99998,0>
+  rotate <0,-220.88627,0>
+  pigment { Blue }
+}
+
+// D/Shoemaker-Levy 9-P1 (1993 F2-P1)
+torus {6.79035121939853*au,rodC
+  scale <1,1,0.9782>
+  translate <-1.4107*au,0,0>
+  rotate <0,-354.99938,0>
+  rotate <-  5.82929,0,0>
+  rotate <0,354.99938,0>
+  rotate <0,-220.90908,0>
+  pigment { Blue }
+}
+
+// D/Shoemaker-Levy 9-P2 (1993 F2-P2)
+torus {6.79146748941154*au,rodC
+  scale <1,1,0.9782>
+  translate <-1.4119*au,0,0>
+  rotate <0,-355.01194,0>
+  rotate <-  5.83126,0,0>
+  rotate <0,355.01194,0>
+  rotate <0,-220.90472,0>
+  pigment { Blue }
+}
+
+// D/Shoemaker-Levy 9-Q1 (1993 F2-Q1)
+torus {6.78700125236606*au,rodC
+  scale <1,1,0.9783>
+  translate <-1.4077*au,0,0>
+  rotate <0,-355.01099,0>
+  rotate <-  5.82282,0,0>
+  rotate <0,355.01099,0>
+  rotate <0,-220.92799,0>
+  pigment { Blue }
+}
+
+// D/Shoemaker-Levy 9-Q2 (1993 F2-Q2)
+torus {6.78749082561868*au,rodC
+  scale <1,1,0.9782>
+  translate <-1.4081*au,0,0>
+  rotate <0,-355.01107,0>
+  rotate <-  5.82361,0,0>
+  rotate <0,355.01107,0>
+  rotate <0,-220.92456,0>
+  pigment { Blue }
+}
+
+// D/Shoemaker-Levy 9-R (1993 F2-R)
+torus {6.77981631661202*au,rodC
+  scale <1,1,0.9784>
+  translate <-1.4006*au,0,0>
+  rotate <0,-355.02229,0>
+  rotate <-  5.80587,0,0>
+  rotate <0,355.02229,0>
+  rotate <0,-220.96646,0>
+  pigment { Blue }
+}
+
+// D/Shoemaker-Levy 9-S (1993 F2-S)
+torus {6.77247677127082*au,rodC
+  scale <1,1,0.9786>
+  translate <-1.3933*au,0,0>
+  rotate <0,-355.03337,0>
+  rotate <-  5.78848,0,0>
+  rotate <0,355.03337,0>
+  rotate <0,-221.00665,0>
+  pigment { Blue }
+}
+
+// D/Shoemaker-Levy 9-T (1993 F2-T)
+torus {6.77073150016011*au,rodC
+  scale <1,1,0.9787>
+  translate <-1.3914*au,0,0>
+  rotate <0,-355.03349,0>
+  rotate <-  5.78300,0,0>
+  rotate <0,355.03349,0>
+  rotate <0,-221.01620,0>
+  pigment { Blue }
+}
+
+// D/Shoemaker-Levy 9-U (1993 F2-U)
+torus {6.76764028429283*au,rodC
+  scale <1,1,0.9787>
+  translate <-1.3885*au,0,0>
+  rotate <0,-355.04151,0>
+  rotate <-  5.77631,0,0>
+  rotate <0,355.04151,0>
+  rotate <0,-221.03417,0>
+  pigment { Blue }
+}
+
+// D/Shoemaker-Levy 9-V (1993 F2-V)
+torus {6.7628312999857*au,rodC
+  scale <1,1,0.9788>
+  translate <-1.3838*au,0,0>
+  rotate <0,-355.05009,0>
+  rotate <-  5.76489,0,0>
+  rotate <0,355.05009,0>
+  rotate <0,-221.06079,0>
+  pigment { Blue }
+}
+
+// D/Shoemaker-Levy 9-W (1993 F2-W)
+torus {6.75981883978105*au,rodC
+  scale <1,1,0.9789>
+  translate <-1.3809*au,0,0>
+  rotate <0,-355.05614,0>
+  rotate <-  5.75837,0,0>
+  rotate <0,355.05614,0>
+  rotate <0,-221.07721,0>
+  pigment { Blue }
+}
+
+// D/Skiff-Kosai (1977 C1)
+torus {3.81568850583192*au,rodC
+  scale <1,1,0.9632>
+  translate <-1.0262*au,0,0>
+  rotate <0,- 26.14334,0>
+  rotate <-  3.20534,0,0>
+  rotate <0, 26.14334,0>
+  rotate <0,- 80.41300,0>
+  pigment { Blue }
+}
+
+// D/Tritton (1978 C2)
+torus {3.41707229722693*au,rodC
+  scale <1,1,0.8132>
+  translate <-1.9888*au,0,0>
+  rotate <0,-147.69597,0>
+  rotate <-  7.06344,0,0>
+  rotate <0,147.69597,0>
+  rotate <0,-300.62738,0>
+  pigment { Blue }
+}
+
+// D/van Houten (1960 S1)
+torus {6.62518728364859*au,rodC
+  scale <1,1,0.9288>
+  translate <-2.4552*au,0,0>
+  rotate <0,- 38.45312,0>
+  rotate <-  7.23197,0,0>
+  rotate <0, 38.45312,0>
+  rotate <0,-  1.54615,0>
+  pigment { Blue }
+}

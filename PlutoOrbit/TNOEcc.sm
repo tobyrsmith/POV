@@ -1,0 +1,38 @@
+expand 1.2
+ltype 0
+angle 0
+ctype black
+lweight 5
+ptype 20 3
+data TNO.dat
+read {i 10 e 11 a 12}
+limits 0 100 e
+box
+xlabel "Average Distance"
+ylabel "Eccentricity"
+points a e
+ctype blue
+points a e if (a < 40 && a > 39)
+ctype red
+lweight 5
+ltype 2
+relocate 39.40 -10
+draw 39.40 250
+angle 90
+relocate 37 0.85
+putlabel 5 "2:3"
+ctype green
+ltype 0
+set x = 20,100,0.1
+set n = 1.0 - (30.06 / x)
+#connect x n
+expand 3.0
+set A = {5.203 9.55 19.18 30.06 39.40}
+set E = {0.048 0.056 0.047 0.009 0.248}
+points A E
+ctype red
+points A E if (E > 0.2)
+expand 1.5
+angle 0
+relocate 34 0.25
+putlabel 5 "Pluto"

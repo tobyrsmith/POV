@@ -1,0 +1,29 @@
+expand 1.2
+ltype 0
+angle 0
+ctype black
+lweight 5
+ptype 20 3
+data CometElements.dat
+read {ca 1 ce 2 ci 3}
+set p = ca ** (3/2)
+set LogP = lg(p)
+limits ci ce
+box
+xlabel "Inclination"
+ylabel "Eccentricity"
+relocate 90 0
+ltype 2
+draw 90 2
+relocate 55 0.15
+label Prograde
+relocate 100 0.15
+label Retrograde
+ctype blue
+points ci ce if (p < 100)
+relocate 110 0.6
+label Period < 100 years
+ctype red
+points ci ce if (p > 100)
+relocate 110 0.55
+label Period > 100 years

@@ -1,0 +1,23 @@
+#!/usr/bin/perl     
+
+my $datafile = $ARGV[0];
+
+print "\n";
+
+open(DATA, "< $datafile") || die $!;
+
+while (<DATA>) {
+
+    if (/\((\d\d\d\d)/){
+#	print;
+	print "$1\n";
+    }
+
+}
+
+close(DATA);
+
+print "\n";
+
+exit;
+

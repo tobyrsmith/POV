@@ -1,0 +1,28 @@
+ltype 0
+angle 0
+ctype black
+lweight 5
+expand 1.2
+data TNO.dat
+read {i 10 e 11 a 12}
+set q = 0,100,0.5
+set h=histogram(a:q)
+limits 25 50 h
+box
+histogram q h
+xlabel "Average Distance"
+ylabel "Number"
+ctype red
+lweight 5
+ltype 2
+relocate 47.73 -10
+draw 47.73 250
+relocate 39.40 -10
+draw 39.40 250
+angle 90
+relocate 47 123
+putlabel 5 "1:2"
+relocate 38.5 123
+putlabel 5 "2:3"
+relocate 30.07 20
+putlabel 5 "Neptune"

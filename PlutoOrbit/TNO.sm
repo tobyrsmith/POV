@@ -1,0 +1,25 @@
+Hello Toby, please give me a command
+: data TNO.dat
+: read {i 10 e 11 a 12}
+Read lines 1 to 1095 from TNO.dat
+: limits a e
+: box
+: points a e
+: erase
+: limits 0 100 e
+: box
+: points a e
+: set p = 1.0 - (40.0 / a)
+: ctype red
+: points a p
+: set x = 1,100,0.1
+: set p = 1.0 - (40.0 / x)
+: points a p
+p contains fewer points than a
+: points x p
+: con x p
+: set p = 1.0 - (30.06 / x)
+: con x p
+: set p = 1.0 - (9.55 / x)
+: con x p
+

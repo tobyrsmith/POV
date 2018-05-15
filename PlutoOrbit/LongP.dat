@@ -1,0 +1,660 @@
+
+//  35P/Herschel-Rigollet
+torus {28.8435445086705*au,rodC
+  scale <1,1,0.2263>
+  translate <-28.0951*au,0,0>
+  rotate <0,- 29.29806,0>
+  rotate <- 64.20652,0,0>
+  rotate <0, 29.29806,0>
+  rotate <0,-355.98052,0>
+  pigment { Blue }
+}
+
+// 109P/Swift-Tuttle
+torus {26.3168718899973*au,rodC
+  scale <1,1,0.2674>
+  translate <-25.3587*au,0,0>
+  rotate <0,-153.00146,0>
+  rotate <-113.42666,0,0>
+  rotate <0,153.00146,0>
+  rotate <0,-139.44432,0>
+  pigment { Red }
+}
+
+// C/Catalina (1999 F1)
+torus {5122.24444798485*au,rodC
+  scale <1,1,0.0475>
+  translate <-5116.4575*au,0,0>
+  rotate <0,-255.16624,0>
+  rotate <- 92.03006,0,0>
+  rotate <0,255.16624,0>
+  rotate <0,- 20.01255,0>
+  pigment { Red }
+}
+
+// C/Dalcanton (1999 F2)
+torus {3429.00971558134*au,rodC
+  scale <1,1,0.0524>
+  translate <-3424.2909*au,0,0>
+  rotate <0,-352.39303,0>
+  rotate <- 56.42091,0,0>
+  rotate <0,352.39303,0>
+  rotate <0,-210.29582,0>
+  pigment { Blue }
+}
+
+// C/Ferris (1999 K2)
+torus {155.327929912808*au,rodC
+  scale <1,1,0.2588>
+  translate <-150.0376*au,0,0>
+  rotate <0,-  4.56487,0>
+  rotate <- 82.19128,0,0>
+  rotate <0,  4.56487,0>
+  rotate <0,-300.31843,0>
+  pigment { Blue }
+}
+
+// C/Ferris (2000 J1)
+torus {56.0389450129582*au,rodC
+  scale <1,1,0.2978>
+  translate <-53.4963*au,0,0>
+  rotate <0,-147.22320,0>
+  rotate <- 98.79597,0,0>
+  rotate <0,147.22320,0>
+  rotate <0,- 28.43894,0>
+  pigment { Red }
+}
+
+// C/Hale-Bopp (1995 O1)
+torus {185.244071176282*au,rodC
+  scale <1,1,0.0992>
+  translate <-184.3299*au,0,0>
+  rotate <0,-130.58878,0>
+  rotate <- 89.43005,0,0>
+  rotate <0,130.58878,0>
+  rotate <0,-282.47071,0>
+  pigment { Blue }
+}
+
+// C/Hergenrother-Spahr (1996 R1)
+torus {132.563021573495*au,rodC
+  scale <1,1,0.1687>
+  translate <-130.6638*au,0,0>
+  rotate <0,-139.45589,0>
+  rotate <-145.81449,0,0>
+  rotate <0,139.45589,0>
+  rotate <0,-149.74481,0>
+  pigment { Red }
+}
+
+// C/Hyakutake (1996 B2)
+torus {966.872957876782*au,rodC
+  scale <1,1,0.0218>
+  translate <-966.6427*au,0,0>
+  rotate <0,-130.17699,0>
+  rotate <-124.92357,0,0>
+  rotate <0,130.17699,0>
+  rotate <0,-188.04542,0>
+  pigment { Red }
+}
+
+// C/IRAS-Araki-Alcock (1983 H1)
+torus {97.2514396316109*au,rodC
+  scale <1,1,0.1424>
+  translate <-96.2601*au,0,0>
+  rotate <0,-192.85120,0>
+  rotate <- 73.24955,0,0>
+  rotate <0,192.85120,0>
+  rotate <0,- 49.10234,0>
+  pigment { Blue }
+}
+
+// C/LINEAR (1998 K2)
+torus {3296.97427383517*au,rodC
+  scale <1,1,0.0375>
+  translate <-3294.6508*au,0,0>
+  rotate <0,-221.41649,0>
+  rotate <- 64.45650,0,0>
+  rotate <0,221.41649,0>
+  rotate <0,- 68.78095,0>
+  pigment { Blue }
+}
+
+// C/LINEAR (1998 K3)
+torus {1593.91175333725*au,rodC
+  scale <1,1,0.0667>
+  translate <-1590.3655*au,0,0>
+  rotate <0,- 47.82251,0>
+  rotate <-160.20553,0,0>
+  rotate <0, 47.82251,0>
+  rotate <0,-307.94700,0>
+  pigment { Red }
+}
+
+// C/LINEAR (1998 K5)
+torus {72.4509613287917*au,rodC
+  scale <1,1,0.1625>
+  translate <-71.4874*au,0,0>
+  rotate <0,- 99.45868,0>
+  rotate <-  9.92707,0,0>
+  rotate <0, 99.45868,0>
+  rotate <0,-211.11927,0>
+  pigment { Blue }
+}
+
+// C/LINEAR (1998 M1)
+torus {429.51945914152*au,rodC
+  scale <1,1,0.1203>
+  translate <-426.4013*au,0,0>
+  rotate <0,- 19.40565,0>
+  rotate <- 20.38477,0,0>
+  rotate <0, 19.40565,0>
+  rotate <0,-256.06757,0>
+  pigment { Blue }
+}
+
+// C/LINEAR (1998 M2)
+torus {1212.69626623594*au,rodC
+  scale <1,1,0.0670>
+  translate <-1209.9709*au,0,0>
+  rotate <0,- 37.24270,0>
+  rotate <- 60.18233,0,0>
+  rotate <0, 37.24270,0>
+  rotate <0,-260.88022,0>
+  pigment { Blue }
+}
+
+// C/LINEAR (1998 M4)
+torus {1286.3252287905*au,rodC
+  scale <1,1,0.0636>
+  translate <-1283.7249*au,0,0>
+  rotate <0,-106.29504,0>
+  rotate <-154.57988,0,0>
+  rotate <0,106.29504,0>
+  rotate <0,- 92.90230,0>
+  pigment { Red }
+}
+
+// C/LINEAR (1998 M5)
+torus {440.081076029295*au,rodC
+  scale <1,1,0.0889>
+  translate <-438.3388*au,0,0>
+  rotate <0,-101.28443,0>
+  rotate <- 82.22886,0,0>
+  rotate <0,101.28443,0>
+  rotate <0,-333.37675,0>
+  pigment { Blue }
+}
+
+// C/LINEAR (1998 Q1)
+torus {348.806280754961*au,rodC
+  scale <1,1,0.0950>
+  translate <-347.2284*au,0,0>
+  rotate <0,-134.73190,0>
+  rotate <- 32.30581,0,0>
+  rotate <0,134.73190,0>
+  rotate <0,-159.78463,0>
+  pigment { Blue }
+}
+
+// C/LINEAR (1998 T1)
+torus {1603.78682416185*au,rodC
+  scale <1,1,0.0428>
+  translate <-1602.3191*au,0,0>
+  rotate <0,-226.35300,0>
+  rotate <-170.15987,0,0>
+  rotate <0,226.35300,0>
+  rotate <0,-153.35741,0>
+  pigment { Red }
+}
+
+// C/LINEAR (1998 U5)
+torus {102.860957255116*au,rodC
+  scale <1,1,0.1546>
+  translate <-101.6245*au,0,0>
+  rotate <0,- 51.13437,0>
+  rotate <-131.76486,0,0>
+  rotate <0, 51.13437,0>
+  rotate <0,- 66.65074,0>
+  pigment { Red }
+}
+
+// C/LINEAR (1998 Y1)
+torus {22.9550335202732*au,rodC
+  scale <1,1,0.3826>
+  translate <-21.2080*au,0,0>
+  rotate <0,-339.84108,0>
+  rotate <- 28.10835,0,0>
+  rotate <0,339.84108,0>
+  rotate <0,- 98.85877,0>
+  pigment { Blue }
+}
+
+// C/LINEAR (1999 G1)
+torus {26.1159641435788*au,rodC
+  scale <1,1,0.5343>
+  translate <-22.0758*au,0,0>
+  rotate <0,-136.00509,0>
+  rotate <- 76.31586,0,0>
+  rotate <0,136.00509,0>
+  rotate <0,- 23.48525,0>
+  pigment { Blue }
+}
+
+// C/LINEAR (1999 J3)
+torus {1571.42013481109*au,rodC
+  scale <1,1,0.0353>
+  translate <-1570.4433*au,0,0>
+  rotate <0,-161.97945,0>
+  rotate <-101.65614,0,0>
+  rotate <0,161.97945,0>
+  rotate <0,-228.97897,0>
+  pigment { Red }
+}
+
+// C/LINEAR (1999 K3)
+torus {233.723880072514*au,rodC
+  scale <1,1,0.1282>
+  translate <-231.7951*au,0,0>
+  rotate <0,-341.14806,0>
+  rotate <- 92.27264,0,0>
+  rotate <0,341.14806,0>
+  rotate <0,-266.91303,0>
+  pigment { Red }
+}
+
+// C/LINEAR (1999 K4)
+torus {28.863670997546*au,rodC
+  scale <1,1,0.3124>
+  translate <-27.4189*au,0,0>
+  rotate <0,-  8.80008,0>
+  rotate <-120.99219,0,0>
+  rotate <0,  8.80008,0>
+  rotate <0,-241.54279,0>
+  pigment { Red }
+}
+
+// C/LINEAR (1999 K6)
+torus {346.846262373984*au,rodC
+  scale <1,1,0.1136>
+  translate <-344.5993*au,0,0>
+  rotate <0,- 56.76354,0>
+  rotate <- 46.34388,0,0>
+  rotate <0, 56.76354,0>
+  rotate <0,-245.37213,0>
+  pigment { Blue }
+}
+
+// C/LINEAR (1999 K7)
+torus {665.488142683183*au,rodC
+  scale <1,1,0.0835>
+  translate <-663.1654*au,0,0>
+  rotate <0,-104.65841,0>
+  rotate <-135.15845,0,0>
+  rotate <0,104.65841,0>
+  rotate <0,- 50.33107,0>
+  pigment { Red }
+}
+
+// C/LINEAR (1999 L2)
+torus {391.241422374133*au,rodC
+  scale <1,1,0.0986>
+  translate <-389.3367*au,0,0>
+  rotate <0,-178.71866,0>
+  rotate <- 43.94214,0,0>
+  rotate <0,178.71866,0>
+  rotate <0,- 94.28979,0>
+  pigment { Blue }
+}
+
+// C/LINEAR (1999 L3)
+torus {77.5099455770913*au,rodC
+  scale <1,1,0.2251>
+  translate <-75.5210*au,0,0>
+  rotate <0,-353.29845,0>
+  rotate <-166.09920,0,0>
+  rotate <0,353.29845,0>
+  rotate <0,-140.16136,0>
+  pigment { Red }
+}
+
+// C/LINEAR (1999 S4)
+torus {1383.76187289774*au,rodC
+  scale <1,1,0.0333>
+  translate <-1382.9967*au,0,0>
+  rotate <0,-151.04895,0>
+  rotate <-149.39050,0,0>
+  rotate <0,151.04895,0>
+  rotate <0,- 83.19097,0>
+  pigment { Red }
+}
+
+// C/LINEAR (1999 T3)
+torus {1722.3218687809*au,rodC
+  scale <1,1,0.0789>
+  translate <-1716.9561*au,0,0>
+  rotate <0,-211.31949,0>
+  rotate <-104.75489,0,0>
+  rotate <0,211.31949,0>
+  rotate <0,-223.51182,0>
+  pigment { Red }
+}
+
+// C/LINEAR (2000 B2)
+torus {6745.64336626296*au,rodC
+  scale <1,1,0.0335>
+  translate <-6741.8672*au,0,0>
+  rotate <0,-154.58906,0>
+  rotate <- 93.64820,0,0>
+  rotate <0,154.58906,0>
+  rotate <0,-284.99095,0>
+  pigment { Red }
+}
+
+// C/LINEAR (2000 CT54)
+torus {2420.1093099403*au,rodC
+  scale <1,1,0.0511>
+  translate <-2416.9533*au,0,0>
+  rotate <0,-272.65154,0>
+  rotate <- 49.20643,0,0>
+  rotate <0,272.65154,0>
+  rotate <0,- 18.96491,0>
+  pigment { Blue }
+}
+
+// C/LINEAR (2000 K2)
+torus {545.990003696521*au,rodC
+  scale <1,1,0.0944>
+  translate <-543.5529*au,0,0>
+  rotate <0,-106.82414,0>
+  rotate <- 25.63321,0,0>
+  rotate <0,106.82414,0>
+  rotate <0,-195.26162,0>
+  pigment { Blue }
+}
+
+// C/LINEAR (2001 A1)
+torus {264.883097469045*au,rodC
+  scale <1,1,0.1345>
+  translate <-262.4768*au,0,0>
+  rotate <0,-107.87879,0>
+  rotate <- 59.93876,0,0>
+  rotate <0,107.87879,0>
+  rotate <0,-339.59577,0>
+  pigment { Blue }
+}
+
+// C/LINEAR (2001 A2-B)
+torus {1170.60594449195*au,rodC
+  scale <1,1,0.0365>
+  translate <-1169.8269*au,0,0>
+  rotate <0,-295.32887,0>
+  rotate <- 36.47493,0,0>
+  rotate <0,295.32887,0>
+  rotate <0,-295.12522,0>
+  pigment { Blue }
+}
+
+// C/LINEAR (2001 C1)
+torus {29199.8000228773*au,rodC
+  scale <1,1,0.0187>
+  translate <-29194.6953*au,0,0>
+  rotate <0,-219.93538,0>
+  rotate <- 68.95138,0,0>
+  rotate <0,219.93538,0>
+  rotate <0,- 33.71135,0>
+  pigment { Blue }
+}
+
+// C/LINEAR (2001 K5)
+torus {11395.530177436*au,rodC
+  scale <1,1,0.0302>
+  translate <-11390.3474*au,0,0>
+  rotate <0,- 47.07991,0>
+  rotate <- 72.58498,0,0>
+  rotate <0, 47.07991,0>
+  rotate <0,-237.46274,0>
+  pigment { Blue }
+}
+
+// C/LINEAR-NEAT (2001 HT50)
+torus {1539.20968711893*au,rodC
+  scale <1,1,0.0602>
+  translate <-1536.4199*au,0,0>
+  rotate <0,-324.08767,0>
+  rotate <-163.21532,0,0>
+  rotate <0,324.08767,0>
+  rotate <0,- 42.92284,0>
+  pigment { Red }
+}
+
+// C/Lee (1999 H1)
+torus {2753.6727202018*au,rodC
+  scale <1,1,0.0227>
+  translate <-2752.9646*au,0,0>
+  rotate <0,- 40.70129,0>
+  rotate <-149.35288,0,0>
+  rotate <0, 40.70129,0>
+  rotate <0,-162.65072,0>
+  pigment { Red }
+}
+
+// C/Lynn (1999 N2)
+torus {298.366191000626*au,rodC
+  scale <1,1,0.0714>
+  translate <-297.6049*au,0,0>
+  rotate <0,-357.83415,0>
+  rotate <-111.65601,0,0>
+  rotate <0,357.83415,0>
+  rotate <0,-254.67581,0>
+  pigment { Red }
+}
+
+// C/McNaught-Hartley (1999 T1)
+torus {6927.7792230844*au,rodC
+  scale <1,1,0.0184>
+  translate <-6926.6075*au,0,0>
+  rotate <0,-344.75703,0>
+  rotate <- 79.97487,0,0>
+  rotate <0,344.75703,0>
+  rotate <0,-182.48274,0>
+  pigment { Blue }
+}
+
+// C/Montani (1997 G2)
+torus {533.585622362135*au,rodC
+  scale <1,1,0.1074>
+  translate <-530.5009*au,0,0>
+  rotate <0,-239.85550,0>
+  rotate <- 69.83895,0,0>
+  rotate <0,239.85550,0>
+  rotate <0,- 55.80385,0>
+  pigment { Blue }
+}
+
+// C/Montani (1998 M6)
+torus {6053.90143583312*au,rodC
+  scale <1,1,0.0444>
+  translate <-6047.9227*au,0,0>
+  rotate <0,-  9.14285,0>
+  rotate <- 91.54071,0,0>
+  rotate <0,  9.14285,0>
+  rotate <0,-306.60361,0>
+  pigment { Red }
+}
+
+// C/Mueller (1997 J1)
+torus {252.769314975239*au,rodC
+  scale <1,1,0.1347>
+  translate <-250.4672*au,0,0>
+  rotate <0,- 98.95414,0>
+  rotate <-122.96871,0,0>
+  rotate <0, 98.95414,0>
+  rotate <0,-277.07492,0>
+  pigment { Red }
+}
+
+// C/Mueller (1998 K1)
+torus {62.3208406013394*au,rodC
+  scale <1,1,0.3266>
+  translate <-58.9042*au,0,0>
+  rotate <0,-165.24610,0>
+  rotate <- 35.63670,0,0>
+  rotate <0,165.24610,0>
+  rotate <0,- 18.25561,0>
+  pigment { Blue }
+}
+
+// C/NEAT (2001 M10)
+torus {26.722321071645*au,rodC
+  scale <1,1,0.5977>
+  translate <-21.4241*au,0,0>
+  rotate <0,-  5.42143,0>
+  rotate <- 28.03805,0,0>
+  rotate <0,  5.42143,0>
+  rotate <0,-293.90316,0>
+  pigment { Blue }
+}
+
+// C/NEAT (2001 O2)
+torus {3531.20914617211*au,rodC
+  scale <1,1,0.0523>
+  translate <-3526.3761*au,0,0>
+  rotate <0,-281.07280,0>
+  rotate <- 90.99740,0,0>
+  rotate <0,281.07280,0>
+  rotate <0,-328.71420,0>
+  pigment { Red }
+}
+
+// C/NEAT (2001 Q1)
+torus {168.637044674116*au,rodC
+  scale <1,1,0.2607>
+  translate <-162.8043*au,0,0>
+  rotate <0,-175.49948,0>
+  rotate <- 66.93028,0,0>
+  rotate <0,175.49948,0>
+  rotate <0,-139.26461,0>
+  pigment { Blue }
+}
+
+// C/Skiff (2000 Y2)
+torus {492.048150590106*au,rodC
+  scale <1,1,0.1059>
+  translate <-489.2794*au,0,0>
+  rotate <0,-326.82311,0>
+  rotate <- 12.08755,0,0>
+  rotate <0,326.82311,0>
+  rotate <0,-185.84808,0>
+  pigment { Blue }
+}
+
+// C/Skiff (2001 K3)
+torus {2896.4257075248*au,rodC
+  scale <1,1,0.0460>
+  translate <-2893.3656*au,0,0>
+  rotate <0,-  3.45306,0>
+  rotate <- 52.02479,0,0>
+  rotate <0,  3.45306,0>
+  rotate <0,-289.84921,0>
+  pigment { Blue }
+}
+
+// C/Spacewatch (1997 BA6)
+torus {3233.09163695197*au,rodC
+  scale <1,1,0.0461>
+  translate <-3229.6552*au,0,0>
+  rotate <0,-285.93677,0>
+  rotate <- 72.71492,0,0>
+  rotate <0,285.93677,0>
+  rotate <0,-317.66377,0>
+  pigment { Blue }
+}
+
+// C/Stonehouse (1998 H1)
+torus {712.06672124633*au,rodC
+  scale <1,1,0.0646>
+  translate <-710.5794*au,0,0>
+  rotate <0,-  1.32451,0>
+  rotate <-104.69229,0,0>
+  rotate <0,  1.32451,0>
+  rotate <0,-222.10889,0>
+  pigment { Red }
+}
+
+// C/Szczepanski (1996 B1)
+torus {156.309801653748*au,rodC
+  scale <1,1,0.1358>
+  translate <-154.8610*au,0,0>
+  rotate <0,-151.28263,0>
+  rotate <- 51.91828,0,0>
+  rotate <0,151.28263,0>
+  rotate <0,-345.44198,0>
+  pigment { Blue }
+}
+
+// C/Tilbrook (1997 O1)
+torus {87.0150268631345*au,rodC
+  scale <1,1,0.1769>
+  translate <-85.6432*au,0,0>
+  rotate <0,-336.18697,0>
+  rotate <-115.80208,0,0>
+  rotate <0,336.18697,0>
+  rotate <0,-231.24580,0>
+  pigment { Red }
+}
+
+// C/Tilbrook (1999 A1)
+torus {176.000250485917*au,rodC
+  scale <1,1,0.0910>
+  translate <-175.2695*au,0,0>
+  rotate <0,-232.67076,0>
+  rotate <- 89.48109,0,0>
+  rotate <0,232.67076,0>
+  rotate <0,-259.12227,0>
+  pigment { Blue }
+}
+
+// C/Utsunomiya (1997 T1)
+torus {924.11089806351*au,rodC
+  scale <1,1,0.0542>
+  translate <-922.7518*au,0,0>
+  rotate <0,- 95.96565,0>
+  rotate <-127.99263,0,0>
+  rotate <0, 95.96565,0>
+  rotate <0,- 53.70319,0>
+  pigment { Red }
+}
+
+// C/Williams (1998 P1)
+torus {1079.24780860739*au,rodC
+  scale <1,1,0.0461>
+  translate <-1078.1015*au,0,0>
+  rotate <0,-294.47255,0>
+  rotate <-145.72865,0,0>
+  rotate <0,294.47255,0>
+  rotate <0,-156.37289,0>
+  pigment { Red }
+}
+
+// C/Zhu-Balam (1997 L1)
+torus {2625.78401989471*au,rodC
+  scale <1,1,0.0611>
+  translate <-2620.8848*au,0,0>
+  rotate <0,-346.34214,0>
+  rotate <- 72.98612,0,0>
+  rotate <0,346.34214,0>
+  rotate <0,-233.29920,0>
+  pigment { Blue }
+}
+
+// D/Bradfield 1 (1984 A1)
+torus {28.4067342577105*au,rodC
+  scale <1,1,0.3054>
+  translate <-27.0493*au,0,0>
+  rotate <0,-219.16091,0>
+  rotate <- 51.80090,0,0>
+  rotate <0,219.16091,0>
+  rotate <0,-356.85814,0>
+  pigment { Blue }
+}

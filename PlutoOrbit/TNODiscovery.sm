@@ -1,0 +1,12 @@
+erase
+lweight 5
+expand 1.5
+data TNOYear.dat
+read a 1
+set q = 1992,2009,1
+set h=histogram(a:q)
+limits q h
+box
+histogram q h
+xlabel "Year"
+ylabel "Number Discovered"
