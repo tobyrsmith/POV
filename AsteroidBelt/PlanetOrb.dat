@@ -1,0 +1,54 @@
+// Mercury
+torus {0.38709893*au,rodP
+  scale <1,1,0.9786>
+  translate <-0.0796*au,0,0>
+  rotate <0,-1.0*29.12478,0>
+  rotate <-1.0*7.00487,0,0>
+  rotate <0,-1.0*48.33167,0>
+  pigment { White }
+  no_shadow
+}
+
+// Venus
+torus {0.72333199*au,rodP
+  scale <1,1,1.0000>
+  translate <-0.0049*au,0,0>
+  rotate <0,-1.0*54.85229,0>
+  rotate <-1.0*3.39471,0,0>
+  rotate <0,-1.0*76.68069,0>
+  pigment { White }
+  no_shadow
+}
+
+// Earth
+torus {1.00000011*au,rodP
+  scale <1,1,0.9999>
+  translate <-0.0167*au,0,0>
+  rotate <0,-1.0*114.20783,0>
+  rotate <-1.0*5e-05,0,0>
+  rotate <0,-1.0*-11.2606,0>
+  pigment { White }
+  no_shadow
+}
+
+// Mars
+torus {1.52366231*au,rodP
+  scale <1,1,0.9956>
+  translate <-0.1423*au,0,0>
+  rotate <0,-1.0*286.4623,0>
+  rotate <-1.0*1.85061,0,0>
+  rotate <0,-1.0*49.57854,0>
+  pigment { Red }
+  no_shadow
+}
+
+// Jupiter
+torus {5.20336301*au,rodP
+  scale <1,1,0.9988>
+  translate <-0.2518*au,0,0>
+  rotate <0,-1.0*274.1977,0>
+  rotate <-1.0*1.3053,0,0>
+  rotate <0,-1.0*100.55615,0>
+  pigment { Yellow }
+  no_shadow
+}

@@ -1,0 +1,11 @@
+// 
+torus {2.76370465915*au,rodP
+  scale <1,1,0.9847>
+  translate<-0.4818*au,0,0>
+  rotate <0,-215.706167244,0>
+  rotate <-5.8693164031,0,0>
+  rotate <0,-144.687710653,0>
+  pigment{ Magenta }
+  no_shadow
+}
+

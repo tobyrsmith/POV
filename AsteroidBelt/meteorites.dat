@@ -1,0 +1,176 @@
+// Pribram
+torus {2.42*au,rodC
+  scale <1,1,0.7387>
+  translate<-1.6311*au,0,0>
+  rotate <0,-241.8,0>
+  rotate <-10.4,0,0>
+  rotate <0,241.8,0>
+  rotate <0,-17.8,0>
+  pigment{ Red }
+}
+
+// LostCity
+torus {1.6*au,rodC
+  scale <1,1,0.9089>
+  translate<-0.6672*au,0,0>
+  rotate <0,-161.0,0>
+  rotate <-11.98,0,0>
+  rotate <0,161.0,0>
+  rotate <0,-283.04,0>
+  pigment{ Red }
+}
+
+// Innisfree
+torus {1.872*au,rodC
+  scale <1,1,0.8810>
+  translate<-0.8858*au,0,0>
+  rotate <0,-177.97,0>
+  rotate <-12.27,0,0>
+  rotate <0,177.97,0>
+  rotate <0,-316.8,0>
+  pigment{ Red }
+}
+
+// Peekskill
+torus {1.49*au,rodC
+  scale <1,1,0.9121>
+  translate<-0.6109*au,0,0>
+  rotate <0,-308.0,0>
+  rotate <-4.9,0,0>
+  rotate <0,308.0,0>
+  rotate <0,-17.03,0>
+  pigment{ Red }
+}
+
+// TagishLake
+torus {2.1*au,rodC
+  scale <1,1,0.8216>
+  translate<-1.1970*au,0,0>
+  rotate <0,-222.0,0>
+  rotate <-1.4,0,0>
+  rotate <0,222.0,0>
+  rotate <0,-297.9,0>
+  pigment{ Red }
+}
+
+// Moravka
+torus {1.85*au,rodC
+  scale <1,1,0.8827>
+  translate<-0.8695*au,0,0>
+  rotate <0,-203.5,0>
+  rotate <-32.2,0,0>
+  rotate <0,203.5,0>
+  rotate <0,-46.258,0>
+  pigment{ Red }
+}
+
+// Neuschwanstein
+torus {2.4*au,rodC
+  scale <1,1,0.7424>
+  translate<-1.6080*au,0,0>
+  rotate <0,-241.1,0>
+  rotate <-11.43,0,0>
+  rotate <0,241.1,0>
+  rotate <0,-16.83,0>
+  pigment{ Red }
+}
+
+// ParkForest
+torus {2.53*au,rodC
+  scale <1,1,0.7332>
+  translate<-1.7204*au,0,0>
+  rotate <0,-237.5,0>
+  rotate <-3.2,0,0>
+  rotate <0,237.5,0>
+  rotate <0,-6.1156,0>
+  pigment{ Red }
+}
+
+// Villalbeto
+torus {2.3*au,rodC
+  scale <1,1,0.7766>
+  translate<-1.4490*au,0,0>
+  rotate <0,-132.3,0>
+  rotate <-0.0,0,0>
+  rotate <0,132.3,0>
+  rotate <0,-283.6712,0>
+  pigment{ Red }
+}
+
+// BunburraRockhole
+torus {0.8529*au,rodC
+  scale <1,1,0.9701>
+  translate<-0.2070*au,0,0>
+  rotate <0,-210.04,0>
+  rotate <-8.95,0,0>
+  rotate <0,210.04,0>
+  rotate <0,-297.595,0>
+  pigment{ Red }
+}
+
+// AlmahataSitta
+torus {1.308*au,rodC
+  scale <1,1,0.9507>
+  translate<-0.4055*au,0,0>
+  rotate <0,-234.449,0>
+  rotate <-2.54,0,0>
+  rotate <0,234.449,0>
+  rotate <0,-194.101,0>
+  pigment{ Red }
+}
+
+// BuzzardCoulee
+torus {1.23*au,rodC
+  scale <1,1,0.9755>
+  translate<-0.2706*au,0,0>
+  rotate <0,-212.0,0>
+  rotate <-25.5,0,0>
+  rotate <0,212.0,0>
+  rotate <0,-238.9,0>
+  pigment{ Red }
+}
+
+// Jesenice
+torus {1.75*au,rodC
+  scale <1,1,0.9028>
+  translate<-0.7525*au,0,0>
+  rotate <0,-190.5,0>
+  rotate <-9.6,0,0>
+  rotate <0,190.5,0>
+  rotate <0,-19.2,0>
+  pigment{ Red }
+}
+
+// Grimsby
+torus {2.04*au,rodC
+  scale <1,1,0.8554>
+  translate<-1.0567*au,0,0>
+  rotate <0,-159.865,0>
+  rotate <-28.07,0,0>
+  rotate <0,159.865,0>
+  rotate <0,-182.956,0>
+  pigment{ Red }
+}
+
+// MasonGully
+torus {2.47*au,rodC
+  scale <1,1,0.7983>
+  translate<-1.4877*au,0,0>
+  rotate <0,-18.95,0>
+  rotate <-0.832,0,0>
+  rotate <0,18.95,0>
+  rotate <0,-203.2112,0>
+  pigment{ Red }
+}
+
+// Chelyabinsk
+torus {1.73*au,rodC
+  scale <1,1,0.8602>
+  translate<-0.8823*au,0,0>
+  rotate <0,-120.62,0>
+  rotate <-3.45,0,0>
+  rotate <0,120.62,0>
+  rotate <0,-326.7,0>
+  pigment{ Red }
+}
+

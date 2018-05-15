@@ -1,0 +1,48 @@
+// Mercury
+torus {0.38709893*au,rodP
+  pigment { White }
+  no_shadow
+}
+
+// Venus
+torus {0.72333199*au,rodP
+  pigment { White }
+  no_shadow
+}
+
+// Earth
+torus {1.00000011*au,rodP
+  pigment { White }
+  no_shadow
+}
+
+// Mars
+torus {1.52366231*au,rodP
+  pigment { White }
+  no_shadow
+}
+
+// Jupiter
+torus {5.20336301*au,rodP
+  pigment { White }
+  no_shadow
+}
+
+// Saturn
+torus {9.5424*au,rodP
+  pigment { White }
+  no_shadow
+}
+
+// Uranus
+torus {19.1727*au,rodP
+  pigment { White }
+  no_shadow
+}
+
+// Neptune
+torus {29.9769*au,rodP
+  pigment { White }
+  no_shadow
+}
+
