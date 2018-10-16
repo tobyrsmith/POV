@@ -1,0 +1,47 @@
+PDS_VERSION_ID               = "PDS3"
+
+RECORD_TYPE                  = FIXED_LENGTH
+RECORD_BYTES                 = 84
+FILE_RECORDS                 = 6480
+^ARRAY                       = "THICKGRD.DAT"
+
+SPACECRAFT_NAME              = "CLEMENTINE 1"
+TARGET_NAME                  = "MOON"
+INSTRUMENT_NAME              = "RADIO SCIENCE SUBSYSTEM"
+DATA_SET_ID                  = "CLEM1-L-RSS-5-GRAVITY-V1.0"
+PRODUCT_ID                   = "THICKGRD-DAT"
+PRODUCT_RELEASE_DATE         = 1996-01-01
+DESCRIPTION                  = "This file contains a digital,
+1 X 1 degree resolution grid of the crustal thickness of the
+Moon.  It is a 360 X 180 grid from 89.5 to -89.5 degrees
+latitude, and 0.5 to 359.5 degrees longitude.  The array values
+are crustal thickness in kilometers.  A complete Bouguer
+correction was applied to the lunar gravity field, using the
+newly derived topography from Clementine.  Additional corrections
+were applied for the added mass of mare basalts, using the
+thicknesses given for eight major basins in Solomon and Head
+(Reviews of Geophysics, v. 18, p. 107-141, 1980).  The resulting
+Bouguer anomalies were then inverted for the topography of the
+lunar moho (Mohorovicic Discontinuity), assuming a constant
+density crust (2800 kg/m3) and mantle (3300 kg/m3).  The
+difference between the inferred moho topography and the surface
+topography is referred to as the crustal thickness.  Smooth
+downward continuation of the Bouguer anomalies to a 61 km mean
+depth to the moho matches the 55 km crustal thickness obtained at
+the Apollo 12 and 14 landind sites."
+
+OBJECT                   = ARRAY
+  NAME                       = "2-D GRID OF CRUSTAL THICKNESS"
+  INTERCHANGE_FORMAT         = ASCII
+  AXES                       = 2
+  AXIS_ITEMS                 = (180,360)
+  AXIS_NAME                  = ("LATITUDE","LONGITUDE")
+  AXIS_UNIT                  = (DEGREES,DEGREES)
+  AXIS_INTERVAL              = (1.0,1.0)
+  FORMAT                     = "F8.3"
+  SAMPLE_BITS                = 64
+  DESCRIPTION                = "This is a 2-D grid of the crustal
+  thickness of the Moon in kilometers"
+END_OBJECT               = ARRAY
+
+END

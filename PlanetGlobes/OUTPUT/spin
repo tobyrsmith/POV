@@ -1,0 +1,21 @@
+#!/usr/bin/perl
+
+my $kfi = 1;
+my $kff = $ARGV[0];
+my $ki = 0;
+my $kf = int($kff - 1.0);
+
+my $spin = -1.0 * 360.0 / $kff; #clock interval
+
+my $clockfile = "clockfile.dat";
+
+open(CLOCK, "> $clockfile") || die $!;
+    print CLOCK "rotate<0,clock*$spin,0>\n";
+close(CLOCK);
+
+
+$cmd = "povray ZZMovie.pov -D +V +Q9 +A -MV3.1 +KFI$kfi +KFF$kff +KI$ki +KF$kf +W800 +H600";
+
+print "$cmd\n";
+
+exit;

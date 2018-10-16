@@ -1,0 +1,2 @@
+#declare ImageMap = "Enceladus.gif"
+

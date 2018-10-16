@@ -1,0 +1,1 @@
+mencoder "mf://ZZMovie*.png" -mf fps=20 -o test.avi -ovc lavc -lavcopts vcodec=msmpeg4v2:vbitrate=2400

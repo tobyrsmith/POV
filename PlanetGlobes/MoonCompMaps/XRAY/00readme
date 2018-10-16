@@ -1,0 +1,219 @@
+
+This set of four tables holds the event counts from the Apollo 15 and 16
+X-Ray Flourescence Spectrometers (XRFS) for all channels of the three
+proportional counters (unfiltered, magnesium filter, aluminum filter)
+and the solar monitor. The XRFS instruments were carried aboard the
+Apollo 15 and 16 Command and Service Modules and took measurements from
+lunar orbit.  They also had magnesium K alpha and Fe55 calibration
+sources.  For more on the instrument, see:
+http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1971-063A&ex=9 
+These data were restored and made available as part of the Lunar Data 
+Project at the National Space Science Data Center with assistance from 
+Michael Bielefeld.  
+
+The four tables are all in the same format, as described below.  The 
+tables hold the following data:
+
+A15C_XRFS_71_NORMAL_1.TAB
+Data from the Apollo 15 XRFS set to normal modes [NFLAG = 14 or 96 as
+described below] with all three counters measuring the same energy
+ranges.
+
+A15C_XRFS_71_EXTENDED_2.TAB 
+Data from the Apollo 15 XRFS set to extended mode [NFLAG = 144 or 224 as
+described below] with detector 1 (unfiltered) measuring with the energy
+boundaries for each channel doubled.
+
+A16C_XRFS_72_NORMAL_1.TAB
+Data from the Apollo 16 XRFS set to normal modes [NFLAG = 14 or 96 as
+described below] with all three counters measuring the same energy
+ranges.
+
+A16C_XRFS_72_EXTENDED_2.TAB 
+Data from the Apollo 16 XRFS set to extended mode [NFLAG = 144 or 224 as
+described below] with detector 1 (unfiltered) measuring with the energy
+boundaries for each channel doubled.
+
+The values give the measurement mode of the instrument, the time, orbit,
+spacecraft position and orientation, and the event counts, normally for
+8-second intervals, for the three proportional counters and the solar
+monitor. The normal energy range for the first 7 channels of the first
+three counters (detector 1 unfiltered, detector 2 magnesium filter, and
+detector 3 aluminum filter) was between 0.75 and 2.75 keV, broken into
+seven equal energy ranges: 0.75-1.04, 1.04-1.32, 1.32-1.61, 1.61-1.89,
+1.89-2.18, 2.18-2.46, and 2.46-2.75 keV.  The solar monitor measured the
+range from approximately 1 to 3 keV, divided into seven equal intervals.
+An eighth channel recorded all x-ray events with energies higher than
+the upper level.  However the solar monitor data for Apollo 15 was not 
+usable due to saturation effects. 
+
+Each row in the table represents one set of measurements and contains 45
+numbers in the order: one integer (I3) designated NFLAG; eight real
+numbers (F11.2,7F9.2) designated ANS(1) through ANS(8); and 36 integers
+(36I6) forming an array designated ISPEC(I,J), where I ranges from 1
+to 4 and represents the counter used, and J ranges from 1 to 9 and
+represents the energy channel.
+
+I=1 detector 1, beryllium windowed counter, no filter 
+I=2 detector 2, beryllium windowed, magnesium filtered counter 
+I=3 detector 3, beryllium windowed, aluminum filtered counter 
+I=4 solar monitor 
+
+J=1-7 seven energy regions into which the energy readings were divided, 
+J=8 all x-ray events above the upper level discriminator 
+J=9 all non X-ray events
+
+The ISPEC values are ordered in each row as ISPEC(1,1), ISPEC(1,2), 
+ISPEC(1,3), etc.
+
+Specifically, the values in each row are:
+
+(1) NFLAG [I3] - Measurement mode of the X-Ray Spectrometer, where:
+NFLAG = 14 indicates normal mode, three detectors measuring external
+input of energies above 0.75 keV, solar monitor measuring external input
+above 1.0 keV.
+NFLAG = 96 indicates calibration mode, the magnesium K alpha and Fe55 
+calibration sources have been rotated into the field of view of detectors 
+1, 2, and 3. 
+NFLAG = 144 indicates same as normal mode except the energy range and 
+all range boundaries for detector 1 channels have been doubled. 
+NFLAG = 224 indicates same spectral range as NFLAG=144 but detectors 
+1, 2, and 3 are measuring K alpha and Fe55 calibration sources.
+
+(2) ANS(1) [F11.2] - Ground elapsed time in seconds (time since launch 
+of Apollo 15 at 13:34:00 UT on 26 July 1971 or Apollo 16 at 17:54:00 UT 
+on 16 April 1972) of the midpoint of the count accumulation period. 
+
+(3) ANS(2) [F9.2] - Lunar orbit number, to the nearest tenth of an orbit.  
+
+(4) ANS(3) [F9.2] - Subspacecraft selenographic latitude in degrees
+from 90 to -90 at the midpoint of the accumulation period.
+
+(5) ANS(4) [F9.2] - Subspacecraft selenographic longitude in degrees
+east from 180 to -180 at the midpoint of the accumulation period.
+
+(6) ANS(5) [F9.2] - Spacecraft altitude in km assuming mean circular 
+Moon (i.e. no terrain corrections).  The equatorial radius of the moon 
+is roughly 1738 km.
+ 
+(7) ANS(6) [F9.2] - Spacecraft pitch angle in degrees.     
+ 
+(8) ANS(7) [F9.2] - Spacecraft yaw angle in degrees.   
+ 
+(9) ANS(8) [F9.2] - Spacecraft roll angle in degrees.
+
+(10) ISPEC(1,1) [I6] - Event count for channel 1 (0.75-1.04 keV) of
+detector 1 (unfiltered). In modes 144 and 224 the energy range is
+1.50-2.08 keV.
+
+(11) ISPEC(1,2) [I6] - Event count for channel 2 (1.04-1.32 keV) of
+detector 1 (unfiltered). In modes 144 and 224 the energy range is 
+2.08-2.64 keV.
+
+(12) ISPEC(1,3) [I6] - Event count for channel 3 (1.32-1.61 keV) of
+detector 1 (unfiltered). In modes 144 and 224 the energy range is 
+2.64-3.22 keV.
+
+(13) ISPEC(1,4) [I6] - Event count for channel 4 (1.61-1.89 keV) of
+detector 1 (unfiltered). In modes 144 and 224 the energy range is 
+3.22-3.78keV.
+
+(14) ISPEC(1,5) [I6] - Event count for channel 5 (1.89-2.18 keV) of
+detector 1 (unfiltered). In modes 144 and 224 the energy range is 
+3.78-4.36 keV.
+
+(15) ISPEC(1,6) [I6] - Event count for channel 6 (2.18-2.46 keV) of
+detector 1 (unfiltered). In modes 144 and 224 the energy range is 
+4.36-4.92 keV.
+
+(16) ISPEC(1,7) [I6] - Event count for channel 7 (2.46-2.75 keV) of
+detector 1 (unfiltered). In modes 144 and 224 the energy range is 
+4.92-5.50 keV.
+
+(17) ISPEC(1,8) [I6] - Event count for channel 8 (above 2.75 keV) of
+detector 1 (unfiltered). In modes 144 and 224 the energy range is above
+5.50 keV.
+
+(18) ISPEC(1,9) [I6] - Event count of all non X-ray events for 
+detector 1 (unfiltered)
+
+(19) ISPEC(2,1) [I6] - Event count for channel 1 (0.75-1.04 keV) of
+detector 2 (magnesium filter).
+
+(20) ISPEC(2,2) [I6] - Event count for channel 2 (1.04-1.32 keV) of
+detector 2 (magnesium filter).
+
+(21) ISPEC(2,3) [I6] - Event count for channel 3 (1.32-1.61 keV) of
+detector 2 (magnesium filter).
+
+(22) ISPEC(2,4) [I6] - Event count for channel 4 (1.61-1.89 keV) of
+detector 2 (magnesium filter).
+
+(23) ISPEC(2,5) [I6] - Event count for channel 5 (1.89-2.18 keV) of
+detector 2 (magnesium filter).
+
+(24) ISPEC(2,6) [I6] - Event count for channel 6 (2.18-2.46 keV) of
+detector 2 (magnesium filter).
+
+(25) ISPEC(2,7) [I6] - Event count for channel 7 (2.46-2.75 keV) of
+detector 2 (magnesium filter).
+
+(26) ISPEC(2,8) [I6] - Event count for channel 8 (above 2.75 keV) of
+detector 2 (magnesium filter).
+
+(27) ISPEC(2,9) [I6] - Event count of all non X-ray events for 
+detector 2 (magnesium filter).
+
+(28) ISPEC(3,1) [I6] - Event count for channel 1 (0.75-1.04 keV) of
+detector 3 (aluminum filter).
+
+(29) ISPEC(3,2) [I6] - Event count for channel 2 (1.04-1.32 keV) of
+detector 3 (aluminum filter).
+
+(30) ISPEC(3,3) [I6] - Event count for channel 3 (1.32-1.61 keV) of
+detector 3 (aluminum filter).
+
+(31) ISPEC(3,4) [I6] - Event count for channel 4 (1.61-1.89 keV) of
+detector 3 (aluminum filter).
+
+(32) ISPEC(3,5) [I6] - Event count for channel 5 (1.89-2.18 keV) of
+detector 3 (aluminum filter).
+
+(33) ISPEC(3,6) [I6] - Event count for channel 6 (2.18-2.46 keV) of
+detector 3 (aluminum filter).
+
+(34) ISPEC(3,7) [I6] - Event count for channel 7 (2.46-2.75 keV) of
+detector 3 (aluminum filter).
+
+(35) ISPEC(3,8) [I6] - Event count for channel 8 (above 2.75 keV) of
+detector 3 (aluminum filter).
+
+(36) ISPEC(3,9) [I6] - Event count of all non X-ray events for 
+detector 3 (aluminum filter).
+
+(37) ISPEC(4,1) [I6] - Event count for channel 1 (1.00-1.29 keV) of
+the solar monitor.
+
+(38) ISPEC(4,2) [I6] - Event count for channel 2 (1.29-1.57 keV) of
+the solar monitor.
+
+(39) ISPEC(4,3) [I6] - Event count for channel 3 (1.57-1.86 keV) of
+the solar monitor.
+
+(40) ISPEC(4,4) [I6] - Event count for channel 4 (1.86-2.14 keV) of
+the solar monitor.
+
+(41) ISPEC(4,5) [I6] - Event count for channel 5 (2.14-2.43 keV) of
+the solar monitor.
+
+(42) ISPEC(4,6) [I6] - Event count for channel 6 (2.43-2.71 keV) of
+the solar monitor.
+
+(43) ISPEC(4,7) [I6] - Event count for channel 7 (2.71-3.00 keV) of
+the solar monitor.
+
+(44) ISPEC(4,8) [I6] - Event count for channel 8 (above 3.00 keV) of
+the solar monitor.
+
+(45) ISPEC(4,9) [I6] - Event count of all non X-ray events for the
+solar monitor.

@@ -1,0 +1,56 @@
+PDS_VERSION_ID               = "PDS3"
+
+RECORD_TYPE                  = FIXED_LENGTH
+RECORD_BYTES                 = 82
+FILE_RECORDS                 = 6480
+^ARRAY                       = "JBL070D1.DAT"
+
+SPACECRAFT_NAME              = "LUNAR PROSPECTOR"
+TARGET_NAME                  = "MOON"
+INSTRUMENT_NAME              = "RADIO SCIENCE SUBSYSTEM"
+DATA_SET_ID                  = "LP-L-RSS-5-GRAVITY-V1.0"
+PRODUCT_ID                   = "JBL070D1.DAT"
+PRODUCT_RELEASE_DATE         = 1998-03-11
+DESCRIPTION                  = "This file contains a digital,
+1 X 1 degree resolution grid of Bouguer gravity anomalies of
+the moon.  It is a 360 x 180 grid from 89.5 to -89.5 degrees
+latitude, and -180.0 to 179.0 degrees longitude.  The observation is
+Bouguer vertical gravity in milligals at the surface referenced to a
+sphere of 1738.0 km radius.  The Bouguer anomaly is the observed gravity
+as given by the indicated gravity model minus the theoretical gravity
+from the topography model. A crustal density of 2.8 and mean density of
+3.34 gm/cm^3 are used together with the GLTM-2C 90th degree and order
+topography model (Smith et. al., 1997, Topography of the Moon from the
+Clementine Lidar, Journal of Geophysical Research, 102, 1591-1611) to
+determine the theoretical gravity.  The degree one terms are not included
+and there is no correction for maria fill.  The method of computing the
+theoretical gravity of a topography model was done by expanding in powers
+(Wieczorek and Phillips, 1998, Potential Anomalies on a Sphere:
+Applications to the Lunar Crust, Journal of Geophysical Research, 103,
+1715-1724).  The anomaly may be from a truncation in degree of a
+delivered gravity field.  The naming convention for the degree used
+is, e.g., JBL070D where 70 indicates the maximum degree of the gravity
+field used to create the grid."
+
+OBJECT                   = ARRAY
+  NAME                       = "2-D GRID OF BOUGUER ANOMALIES"
+  INTERCHANGE_FORMAT         = ASCII
+  AXES                       = 2
+  AXIS_ITEMS                 = (180,360)
+  AXIS_NAME                  = (LATITUDE,LONGITUDE)
+  AXIS_UNIT                  = (DEGREE,DEGREE)
+  AXIS_INTERVAL              = (-1.0,1.0)
+  AXIS_START                 = (89.5,-180.0)
+  AXIS_STOP                  = (-89.5,179.0)
+  FORMAT                     = "F8.2"
+  SAMPLE_BITS                = 64
+  DESCRIPTION                = "This is a 2-D grid of the Bouguer gravity
+  anomalies of the Moon in milligals (1 milligal = 0.01 mm/s/s).  The
+  file contains 180 blocks of 36 records, with each record containing
+  10 Bouguer anomaly values plus an ASCII carriage-return line-feed
+  pair as a delimiter.  The first block contains values at 89.5N latitude;
+  the first value in the first record is the Bouguer anomaly at
+  (89.5N, 180.0W)."
+END_OBJECT               = ARRAY
+
+END
